@@ -1,12 +1,13 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU0 — Conv0（layer 0，第一層卷積，無 Adapter）
-// 改造：threshs_ROM 由唯讀改為 cfg-可寫（64×11-bit），runtime 換任務時由 cfg_hub 改 MVAU0 threshold。
+// MVAU0 Matrix-Vector-Activate（MAC 核心）— Conv0 — threshold ROM 變 cfg 可寫
 // 
-// 本檔：
-//   ★ 改過：在 MAC/threshold 模組內把 cfg_wen/cfg_waddr/cfg_wdata 串接(cascade)到 threshs_U（可寫 ROM）。
+// 改動明細（patch_finn_ips.py，vs *.pre_cfg_patch.bak）：
+//  1. module 埠新增：input cfg_wen; input [5:0] cfg_waddr; input [31:0] cfg_wdata;（64-deep）
+//  2. threshs_U 實例新增接線：.cfg_wen(cfg_wen) .cfg_waddr(cfg_waddr) .cfg_wdata(cfg_wdata)
+//  → 把 cfg 寫入串接到可寫 threshold ROM（搭配同層 *_threshs_ROM_AUTO_1R.v）
 // 
-// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
+// 流程：FINN 生成 → 本論文修改此檔 → RTL/super_wrapper 整合 → SoC → FPGA。
 // ===========================================================================
 
 // ==============================================================

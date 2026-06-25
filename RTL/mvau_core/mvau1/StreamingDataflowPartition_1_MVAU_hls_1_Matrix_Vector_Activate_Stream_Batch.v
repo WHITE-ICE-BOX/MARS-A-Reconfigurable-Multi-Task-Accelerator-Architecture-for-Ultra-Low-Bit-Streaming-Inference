@@ -1,13 +1,14 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU1 — Conv1（帶 Adapter，屬 Super Wrapper Path A）
-// 改造：MAC 核心解耦 thresholding，輸出『整數 partial-sum』，交給 Adapter 在 Stream_Adder_Threshold 融合後才二值化。
+// MVAU1 Matrix-Vector-Activate（MAC 核心）— Conv1（帶 Adapter）— 改輸出整數 partial-sum
 // 
-// 本檔：
-//   ★ 改過：MAC 核心。解耦最終 thresholding，改為輸出『整數 partial-sum』，
-//     供 Adapter 旁路在 Stream_Adder_Threshold 相加後才做 Q8 二值化。
+// 改動明細（vs FINN 原始版）：
+//  1. 埠 out_V_TDATA 寬度：[31:0] → [1023:0]（32 通道 × 32-bit 原始 partial-sum）
+//  2. 新增 32 條 wire mac_0..mac_31 = $signed(accu_V_64..95_reg_*)（取累加器原值）
+//  3. 原 assign out_V_TDATA = {result_V_*_fu_*_p2}（二值化結果）→ 整行註解掉
+//  4. 新 assign out_V_TDATA = {mac_31,...,mac_0} → 改輸出原始 partial-sum 給 Adapter 融合
 // 
-// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
+// 流程：FINN 生成 → 本論文修改此檔 → RTL/super_wrapper 整合 → SoC → FPGA。
 // ===========================================================================
 
 // ==============================================================

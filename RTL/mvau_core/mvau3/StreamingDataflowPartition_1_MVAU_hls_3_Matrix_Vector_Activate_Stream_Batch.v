@@ -1,13 +1,13 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU3 — Conv3（帶 Adapter）
-// 改造：同 Conv1，輸出整數 partial-sum 供 Adapter 融合。
+// MVAU3 Matrix-Vector-Activate（MAC 核心）— Conv3（帶 Adapter）— 改輸出整數 partial-sum
 // 
-// 本檔：
-//   ★ 改過：MAC 核心。解耦最終 thresholding，改為輸出『整數 partial-sum』，
-//     供 Adapter 旁路在 Stream_Adder_Threshold 相加後才做 Q8 二值化。
+// 改動明細（vs FINN 原始版）：
+//  1. out_V_TDATA：[31:0] → [511:0]（16 通道 × 32-bit）
+//  2. 原 assign out_V_TDATA = {result_V_15..0_fu_*_p2} → 註解掉
+//  3. 新 assign out_V_TDATA = {add_ln840_511_reg, ..., add_ln840_31_reg}（16 個原始累加器）
 // 
-// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
+// 流程：FINN 生成 → 本論文修改此檔 → RTL/super_wrapper 整合 → SoC → FPGA。
 // ===========================================================================
 
 // ==============================================================
