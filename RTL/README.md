@@ -16,7 +16,7 @@ RTL/
 │   ├── Adapter_MVAU2.v             #  MVAU2 Adapter
 │   ├── Adapter_MVAU3.v             #  MVAU3 Adapter
 │   ├── Adapter_MVAU4.v             #  MVAU4 Adapter
-│   └── Adapter_Generic.v           #  MVAU5 用的泛用 Adapter（參數化版）
+│   └── Adapter_MVAU5.v             #  MVAU5 的 Adapter（泛用/參數化版，原名 Adapter_Generic.v）
 │
 ├── super_wrapper/                   # ── 每個 MVAU 的 Super Wrapper 與其子模組 ──
 │   ├── MVAU{1..5}_Super_Wrapper.v   #  頂層：Splitter→(MVAU主幹 ‖ Adapter)→FIFO→Adder+Threshold
