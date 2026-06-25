@@ -26,7 +26,9 @@ RTL/
 │   └── Stream_Adder_mvau{N}.v       #  純加法版（部分 MVAU 用）
 │
 ├── cfg_hub/
-│   └── adapter_cfg_hub.v            #  ★ AXI-Lite configuration hub（base 0x40010000，僅 19 LUT）
+│   ├── adapter_cfg_hub.v            #  ★ AXI-Lite configuration hub（base 0x40010000，僅 19 LUT）
+│   └── cls_cfg_bridge.v             #  ★ classifier(MVAU8) 權重 runtime 寫入橋：把 cfg_hub 的 cls_cfg_*
+│                                    #     脈衝展開成對 MVAU8 memstream 的 8 筆 AXI-Lite 寫入
 │                                    #    把 per-task 參數（thresholds、classifier 權重、5 層 adapter blob）
 │                                    #    demux 到散落於 pipeline 的暫存器/RAM bank → 控制器無關的 runtime 切換
 │
@@ -37,13 +39,14 @@ RTL/
     ├── make_project.tcl             #  建立 Vivado 工程
     └── build_bitstream.tcl          #  完整建置流程（stitch → zynq → bitstream）
 │
-├── mvau_core/                       # ── 只收『改過的』MVAU 核心（兩類改造，MVAU8 未改故不收）──
+├── mvau_core/                       # ── 改過的 MVAU 核心，三類改造（MVAU0–8 皆有改）──
 │   ├── mvau1/ .. mvau5/             #  Conv1–5（帶 Adapter）。改造：MAC 解耦 thresholding，
 │   │                                #    輸出『整數 partial-sum』給 Adapter 在 Stream_Adder_Threshold 融合後才二值化。
 │   │                                #    關鍵檔：*_Matrix_Vector_Activate_Stream_Batch.v
-│   └── mvau0/ mvau6/ mvau7/         #  Conv0 / FC1 / FC2。改造（patch_finn_ips.py）：threshs_ROM
-│                                    #    由唯讀→cfg-可寫（加 cfg_wen/waddr/wdata），runtime 換任務改 threshold。
-│                                    #    關鍵檔：*_threshs_ROM_AUTO_1R.v（含「PATCHED」標記）
+│   ├── mvau0/ mvau6/ mvau7/         #  Conv0 / FC1 / FC2 threshold。改造（patch_finn_ips.py）：threshs_ROM
+│   │                                #    由唯讀→cfg-可寫（加 cfg_wen/waddr/wdata）。關鍵檔：*_threshs_ROM_AUTO_1R.v（PATCHED）
+│   └── mvau8/                       #  FC2/classifier。改造：權重 memstream 設 runtime-writeable，
+│                                    #    由 cfg_hub/cls_cfg_bridge.v 經 AXI-Lite 寫入新 classifier 權重
 │
 ├── hardware_assets/                 # ── RTL 消費的 .dat 權重（97 個）──
 │   ├── mvau_{0..8}_memblock.dat     #  各 MVAU 的 FINN 二值權重 memblock
