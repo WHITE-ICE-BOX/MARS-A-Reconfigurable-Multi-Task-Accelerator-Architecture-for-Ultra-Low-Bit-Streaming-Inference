@@ -1,0 +1,3 @@
+dataset,M,rc,acc,params,returncode
+CINIC10,4,False,64.94,2635458,0
+CINIC10,4,True,64.99,2636098,0

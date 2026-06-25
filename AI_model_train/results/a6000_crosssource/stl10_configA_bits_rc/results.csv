@@ -1,0 +1,5 @@
+dataset,bit,mode,acc,params,returncode
+CINIC10,1,adapter_rc,54.26,1605223,0
+CINIC10,2,adapter_rc,57.9,1605231,0
+CINIC10,4,adapter_rc,61.32,1605231,0
+CINIC10,8,adapter_rc,61.27,1605231,0

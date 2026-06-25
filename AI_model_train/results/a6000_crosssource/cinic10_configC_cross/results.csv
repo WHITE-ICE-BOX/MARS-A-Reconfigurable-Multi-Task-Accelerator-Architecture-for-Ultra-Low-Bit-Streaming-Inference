@@ -1,0 +1,17 @@
+dataset,mode,M,rc,acc,params,returncode
+CIFAR10,adapter,1,True,78.05,1875410,0
+CIFAR10,adapter,2,True,78.08,2204130,0
+CIFAR10,adapter,3,True,78.47,2532850,0
+CIFAR10,adapter,4,True,78.59,2861570,0
+FashionMNIST,adapter,1,True,79.81,1875410,0
+FashionMNIST,adapter,2,True,80.89,2204130,0
+FashionMNIST,adapter,3,True,81.26,2532850,0
+FashionMNIST,adapter,4,True,81.59,2861570,0
+STL10,adapter,1,True,66.42,1875410,0
+STL10,adapter,2,True,66.86,2204130,0
+STL10,adapter,3,True,67.33,2532850,0
+STL10,adapter,4,True,67.83,2861570,0
+SVHN,adapter,1,True,67.43,1875410,0
+SVHN,adapter,2,True,70.6,2204130,0
+SVHN,adapter,3,True,71.12,2532850,0
+SVHN,adapter,4,True,72.3,2861570,0

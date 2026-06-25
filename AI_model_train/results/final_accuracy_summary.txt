@@ -1,0 +1,1212 @@
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/STL10_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/SVHN_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/FashionMNIST_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_cross/logs/CINIC10_full_ft.log ==
+== claude/paper_results_bitwidth/logs/TRANSFER_b16_full_ft.log ==
+Final Best Accuracy: 96.15473263675476%
+== claude/paper_results_bitwidth/logs/TRANSFER_b16_frozen_only.log ==
+Final Best Accuracy: 26.36754763368162%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b2.log ==
+Final Best Accuracy: 89.63%
+== claude/paper_results_bitwidth/logs/TRANSFER_b8_adapter.log ==
+Final Best Accuracy: 80.4778733866011%
+== claude/paper_results_bitwidth/logs/TRANSFER_b2_adapter.log ==
+Final Best Accuracy: 74.43915181315305%
+== claude/paper_results_bitwidth/logs/TRANSFER_b1_frozen_only.log ==
+Final Best Accuracy: 28.814535955746774%
+== claude/paper_results_bitwidth/logs/TRANSFER_b32_full_ft.log ==
+Final Best Accuracy: 96.09326982175784%
+== claude/paper_results_bitwidth/logs/TRANSFER_b32_adapter.log ==
+Final Best Accuracy: 79.5098340503995%
+== claude/paper_results_bitwidth/logs/TRANSFER_b8_frozen_only.log ==
+Final Best Accuracy: 25.94114935464044%
+== claude/paper_results_bitwidth/logs/TRANSFER_b1_full_ft.log ==
+Final Best Accuracy: 94.91011063306699%
+== claude/paper_results_bitwidth/logs/TRANSFER_b4_frozen_only.log ==
+Final Best Accuracy: 26.85540872771973%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b8.log ==
+Final Best Accuracy: 90.91%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b32.log ==
+Final Best Accuracy: 91.28%
+== claude/paper_results_bitwidth/logs/TRANSFER_b8_full_ft.log ==
+Final Best Accuracy: 96.13168408113091%
+== claude/paper_results_bitwidth/logs/TRANSFER_b2_frozen_only.log ==
+Final Best Accuracy: 25.510909649661954%
+== claude/paper_results_bitwidth/logs/TRANSFER_b16_adapter.log ==
+Final Best Accuracy: 79.07191149354641%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b1.log ==
+Final Best Accuracy: 81.48%
+== claude/paper_results_bitwidth/logs/TRANSFER_b4_adapter.log ==
+Final Best Accuracy: 79.96312231100184%
+== claude/paper_results_bitwidth/logs/TRANSFER_b1_adapter.log ==
+Final Best Accuracy: 73.72080516287646%
+== claude/paper_results_bitwidth/logs/TRANSFER_b2_full_ft.log ==
+Final Best Accuracy: 96.06637984019667%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b4.log ==
+Final Best Accuracy: 90.66%
+== claude/paper_results_bitwidth/logs/TRANSFER_b32_frozen_only.log ==
+Final Best Accuracy: 26.409803318992008%
+== claude/paper_results_bitwidth/logs/TRANSFER_b4_full_ft.log ==
+Final Best Accuracy: 96.07022126613398%
+== claude/paper_results_bitwidth/logs/PRETRAIN_b16.log ==
+Final Best Accuracy: 91.07%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M4_norc.log ==
+Final Best Accuracy: 61.378303626306085%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M1_norc.log ==
+Final Best Accuracy: 50.4840196681008%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M3_rc.log ==
+Final Best Accuracy: 80.11293792255685%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M1_rc.log ==
+Final Best Accuracy: 74.23939766441303%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M4_rc.log ==
+Final Best Accuracy: 80.05147510755992%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M2_rc.log ==
+Final Best Accuracy: 78.33435771358329%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M3_norc.log ==
+Final Best Accuracy: 59.03887523048556%
+== claude/paper_results_bitwidth/v8b_kernel1_out/logs/v1v2_M2_norc.log ==
+Final Best Accuracy: 56.50737553779963%
+== claude/paper_results_bitwidth/v8b_kernel1_out/run_resume.log ==
+[v1v2_M4_rc] Final Best Accuracy: 80.05147510755992%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b8_full_ft.log ==
+Final Best Accuracy: 76.88555555555556%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b2_full_ft.log ==
+Final Best Accuracy: 75.46333333333334%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b4_adapter_norc.log ==
+Final Best Accuracy: 69.02%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b16_adapter_norc.log ==
+Final Best Accuracy: 69.70222222222222%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b2_full_ft.log ==
+Final Best Accuracy: 87.71%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b8_adapter_norc.log ==
+Final Best Accuracy: 83.46%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b4_adapter_norc.log ==
+Final Best Accuracy: 82.57%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b4_full_ft.log ==
+Final Best Accuracy: 93.85%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b8_adapter_norc.log ==
+Final Best Accuracy: 69.84%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b2_adapter_norc.log ==
+Final Best Accuracy: 78.74%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b4_full_ft.log ==
+Final Best Accuracy: 76.87333333333333%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b2_adapter_norc.log ==
+Final Best Accuracy: 63.81444444444445%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b32_full_ft.log ==
+Final Best Accuracy: 77.14666666666666%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b8_full_ft.log ==
+Final Best Accuracy: 87.8%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b8_adapter_norc.log ==
+Final Best Accuracy: 93.28%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b32_adapter_norc.log ==
+Final Best Accuracy: 82.46%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b2_full_ft.log ==
+Final Best Accuracy: 93.99%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b32_full_ft.log ==
+Final Best Accuracy: 87.56%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b32_adapter_norc.log ==
+Final Best Accuracy: 69.40222222222222%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b8_full_ft.log ==
+Final Best Accuracy: 94.14%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b16_adapter_norc.log ==
+Final Best Accuracy: 82.43%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b4_full_ft.log ==
+Final Best Accuracy: 87.67%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CINIC10_b16_full_ft.log ==
+Final Best Accuracy: 77.12222222222222%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b32_adapter_norc.log ==
+Final Best Accuracy: 93.38%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b2_adapter_norc.log ==
+Final Best Accuracy: 92.66%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/CIFAR10_b16_full_ft.log ==
+Final Best Accuracy: 87.73%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b32_full_ft.log ==
+Final Best Accuracy: 93.68%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b4_adapter_norc.log ==
+Final Best Accuracy: 93.49%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b16_adapter_norc.log ==
+Final Best Accuracy: 93.46%
+== claude/paper_results_bitwidth/svhn_to_others_bits/logs/FashionMNIST_b16_full_ft.log ==
+Final Best Accuracy: 94.15%
+== claude/paper_results_bitwidth/svhn_to_others_bits/run.log ==
+Binary file claude/paper_results_bitwidth/svhn_to_others_bits/run.log matches
+== claude/paper_results_bitwidth/stl10_pretrain/logs/stl10_b8.log ==
+Final Best Accuracy: 72.925%
+== claude/paper_results_bitwidth/stl10_pretrain/logs/stl10_b2.log ==
+Final Best Accuracy: 70.4625%
+== claude/paper_results_bitwidth/stl10_pretrain/logs/stl10_b1.log ==
+Final Best Accuracy: 66.8375%
+== claude/paper_results_bitwidth/stl10_pretrain/logs/stl10_b4.log ==
+Final Best Accuracy: 72.5375%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b1_full_ft.log ==
+Final Best Accuracy: 78.37%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b2_full_ft.log ==
+Final Best Accuracy: 86.73%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b8_adapter_norc.log ==
+Final Best Accuracy: 81.79%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b4_adapter_norc.log ==
+Final Best Accuracy: 80.97%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b2_full_ft.log ==
+Final Best Accuracy: 95.88967424708052%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b1_adapter_norc.log ==
+Final Best Accuracy: 30.275%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b2_adapter_norc.log ==
+Final Best Accuracy: 73.45%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b1_full_ft.log ==
+Final Best Accuracy: 59.1125%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CINIC10_b1_full_ft.log ==
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b8_full_ft.log ==
+Final Best Accuracy: 96.0779041180086%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b8_full_ft.log ==
+Final Best Accuracy: 87.63%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CINIC10_b1_adapter_norc.log ==
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b2_adapter_norc.log ==
+Final Best Accuracy: 94.09572833435772%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b1_adapter_norc.log ==
+Final Best Accuracy: 38.77919483712354%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b8_adapter_norc.log ==
+Final Best Accuracy: 58.8125%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b4_adapter_norc.log ==
+Final Best Accuracy: 95.52858020897357%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b1_full_ft.log ==
+Final Best Accuracy: 94.36078672403197%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b1_adapter_norc.log ==
+Final Best Accuracy: 28.14%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b2_full_ft.log ==
+Final Best Accuracy: 62.2%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b4_full_ft.log ==
+Final Best Accuracy: 61.6%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/CIFAR10_b4_full_ft.log ==
+Final Best Accuracy: 87.43%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b2_adapter_norc.log ==
+Final Best Accuracy: 49.7%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b8_full_ft.log ==
+Final Best Accuracy: 63.35%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/STL10_b4_adapter_norc.log ==
+Final Best Accuracy: 56.7875%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b4_full_ft.log ==
+Final Best Accuracy: 95.82437000614628%
+== claude/paper_results_bitwidth/fashionmnist_to_others_bits/logs/SVHN_b8_adapter_norc.log ==
+Final Best Accuracy: 95.30961893054702%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M3_norc.log ==
+Final Best Accuracy: 80.71%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M3_norc.log ==
+Final Best Accuracy: 67.325%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M3_norc.log ==
+Final Best Accuracy: 64.57333333333334%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M3_rc.log ==
+Final Best Accuracy: 82.37%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M1_rc.log ==
+Final Best Accuracy: 81.34%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M1_rc.log ==
+Final Best Accuracy: 64.56333333333333%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 64.97111111111111%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M2_norc.log ==
+Final Best Accuracy: 67.125%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M1_norc.log ==
+Final Best Accuracy: 64.23666666666666%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M1_norc.log ==
+Final Best Accuracy: 67.0625%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 64.79444444444445%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M2_rc.log ==
+Final Best Accuracy: 82.96%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M1_rc.log ==
+Final Best Accuracy: 66.975%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 67.9125%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/STL10_M3_rc.log ==
+Final Best Accuracy: 67.8625%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/CINIC10_M2_norc.log ==
+Final Best Accuracy: 64.55555555555556%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M1_norc.log ==
+Final Best Accuracy: 77.71%
+== claude/paper_results_bitwidth/v_v6_cross_m/logs/FashionMNIST_M2_norc.log ==
+Final Best Accuracy: 79.23%
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/CIFAR10_M2_rc.log ==
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/CIFAR10_full_ft.log ==
+Final Best Accuracy: 78.37%
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/CIFAR10_M1_rc.log ==
+Final Best Accuracy: 34.44%
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/STL10_full_ft.log ==
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/CIFAR10_M3_rc.log ==
+== claude/paper_results_bitwidth/fashionmnist_configA_cross/logs/CIFAR10_M4_rc.log ==
+== claude/paper_results_bitwidth/v6/logs/v6_b8.log ==
+Final Best Accuracy: 95.79363859864782%
+== claude/paper_results_bitwidth/v6/logs/v6_b16.log ==
+Final Best Accuracy: 95.69760295021511%
+== claude/paper_results_bitwidth/v6/logs/v6_b1.log ==
+Final Best Accuracy: 79.22940995697603%
+== claude/paper_results_bitwidth/v6/logs/v6_b32.log ==
+Final Best Accuracy: 95.66687154271666%
+== claude/paper_results_bitwidth/v6/logs/v6_b4.log ==
+Final Best Accuracy: 95.69760295021511%
+== claude/paper_results_bitwidth/v6/logs/v6_b2.log ==
+Final Best Accuracy: 95.26736324523664%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b1_adapter_norc.log ==
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b1_full_ft.log ==
+Final Best Accuracy: 83.01%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b2_full_ft.log ==
+Final Best Accuracy: 88.79%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b8_adapter_norc.log ==
+Final Best Accuracy: 85.48%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b4_adapter_norc.log ==
+Final Best Accuracy: 85.51%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b4_full_ft.log ==
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b2_full_ft.log ==
+Final Best Accuracy: 96.05101413644745%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b2_adapter_norc.log ==
+Final Best Accuracy: 82.95%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b1_full_ft.log ==
+Final Best Accuracy: 92.73%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b8_full_ft.log ==
+Final Best Accuracy: 96.21235402581438%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b8_full_ft.log ==
+Final Best Accuracy: 89.81%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b2_adapter_norc.log ==
+Final Best Accuracy: 94.76029502151198%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b1_adapter_norc.log ==
+Final Best Accuracy: 63.11846957590657%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b2_full_ft.log ==
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b4_adapter_norc.log ==
+Final Best Accuracy: 95.60540872771973%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b1_full_ft.log ==
+Final Best Accuracy: 95.32114320835895%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b1_adapter_norc.log ==
+Final Best Accuracy: 66.05%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/CIFAR10_b4_full_ft.log ==
+Final Best Accuracy: 89.78%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b2_adapter_norc.log ==
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b4_full_ft.log ==
+Final Best Accuracy: 96.19698832206515%
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/SVHN_b8_adapter_norc.log ==
+== claude/paper_results_bitwidth/stl10_to_others_bits/logs/FashionMNIST_b4_adapter_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/FashionMNIST_b1_adapter_norc.log ==
+Final Best Accuracy: 77.94%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/CINIC10_b4_adapter_norc.log ==
+Final Best Accuracy: 77.74%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/STL10_b1_adapter_norc.log ==
+Final Best Accuracy: 66.9125%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/CINIC10_b8_adapter_norc.log ==
+Final Best Accuracy: 77.94222222222223%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/CINIC10_b2_adapter_norc.log ==
+Final Best Accuracy: 75.93111111111111%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/FashionMNIST_b8_adapter_norc.log ==
+Final Best Accuracy: 93.94%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/CINIC10_b1_adapter_norc.log ==
+Final Best Accuracy: 64.20111111111112%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/SVHN_b2_adapter_norc.log ==
+Final Best Accuracy: 95.45175169022741%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/SVHN_b1_adapter_norc.log ==
+Final Best Accuracy: 63.05700676090965%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/STL10_b8_adapter_norc.log ==
+Final Best Accuracy: 74.45%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/SVHN_b4_adapter_norc.log ==
+Final Best Accuracy: 95.74754148740013%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/STL10_b2_adapter_norc.log ==
+Final Best Accuracy: 72.9125%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/FashionMNIST_b2_adapter_norc.log ==
+Final Best Accuracy: 93.27%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/STL10_b4_adapter_norc.log ==
+Final Best Accuracy: 75.8375%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/SVHN_b8_adapter_norc.log ==
+Final Best Accuracy: 95.82821143208359%
+== claude/paper_results_bitwidth/cifar10_configC_bits/logs/FashionMNIST_b4_adapter_norc.log ==
+Final Best Accuracy: 94.07%
+== claude/paper_results_bitwidth/cinic10_pretrain/logs/cinic10_b8.log ==
+Final Best Accuracy: 79.85222222222222%
+== claude/paper_results_bitwidth/cinic10_pretrain/logs/cinic10_b4.log ==
+Final Best Accuracy: 79.47111111111111%
+== claude/paper_results_bitwidth/cinic10_pretrain/logs/cinic10_b2.log ==
+Final Best Accuracy: 77.68222222222222%
+== claude/paper_results_bitwidth/cinic10_pretrain/logs/cinic10_b1.log ==
+Final Best Accuracy: 66.08444444444444%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b32_M4_rc.log ==
+Final Best Accuracy: 96.19314689612784%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b4_M4_rc.log ==
+Final Best Accuracy: 96.10095267363245%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b2_M4_rc.log ==
+Final Best Accuracy: 96.05101413644745%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b1_M4_rc.log ==
+Final Best Accuracy: 83.31284572833435%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b8_M4_rc.log ==
+Final Best Accuracy: 96.13168408113091%
+== claude/paper_results_bitwidth/v_v6_bit/logs/b16_M4_rc.log ==
+Final Best Accuracy: 96.120159803319%
+== claude/paper_results_bitwidth/v_v6_bit/run_resume.log ==
+[b32_M4_rc] Final Best Accuracy: 96.19314689612784%
+== claude/paper_results_bitwidth/v_v6_cross/logs/CINIC10_M4_norc.log ==
+Final Best Accuracy: 64.93555555555555%
+== claude/paper_results_bitwidth/v_v6_cross/logs/STL10_M4_norc.log ==
+Final Best Accuracy: 67.4125%
+== claude/paper_results_bitwidth/v_v6_cross/logs/STL10_M4_rc.log ==
+Final Best Accuracy: 67.625%
+== claude/paper_results_bitwidth/v_v6_cross/logs/FashionMNIST_M4_rc.log ==
+Final Best Accuracy: 82.87%
+== claude/paper_results_bitwidth/v_v6_cross/logs/FashionMNIST_M4_norc.log ==
+Final Best Accuracy: 80.64%
+== claude/paper_results_bitwidth/v_v6_cross/logs/CINIC10_M4_rc.log ==
+Final Best Accuracy: 64.99222222222222%
+== claude/paper_results_bitwidth/configC_sw_multi_run.log ==
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b32.log ==
+Final Best Accuracy: 95.47864167178857%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b4.log ==
+Final Best Accuracy: 95.4901659496005%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b1.log ==
+Final Best Accuracy: 65.06223110018439%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b2.log ==
+Final Best Accuracy: 94.21097111247695%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b8.log ==
+Final Best Accuracy: 95.51705593116165%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b8.log ==
+Final Best Accuracy: 90.76905347264905%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b4.log ==
+Final Best Accuracy: 90.10064535955746%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b32.log ==
+Final Best Accuracy: 90.20052243392747%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b1.log ==
+Final Best Accuracy: 63.96742470805163%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b2.log ==
+Final Best Accuracy: 86.85848186846958%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k1_b16.log ==
+Final Best Accuracy: 90.71911493546405%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/logs/k3_b16.log ==
+Final Best Accuracy: 95.5938844499078%
+== claude/paper_results_bitwidth/v3_compare_50ep_2026-05-03/run.log ==
+[k1_b32] Final Best Accuracy: 90.20052243392747%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/FashionMNIST_b1_adapter_norc.log ==
+Final Best Accuracy: 71.32%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/CINIC10_b4_adapter_norc.log ==
+Final Best Accuracy: 74.93666666666667%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/STL10_b1_adapter_norc.log ==
+Final Best Accuracy: 66.525%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/CINIC10_b8_adapter_norc.log ==
+Final Best Accuracy: 75.39777777777778%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/CINIC10_b2_adapter_norc.log ==
+Final Best Accuracy: 73.15222222222222%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/FashionMNIST_b8_adapter_norc.log ==
+Final Best Accuracy: 85.34%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/CINIC10_b1_adapter_norc.log ==
+Final Best Accuracy: 63.80555555555556%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/SVHN_b2_adapter_norc.log ==
+Final Best Accuracy: 73.77458512599877%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/SVHN_b1_adapter_norc.log ==
+Final Best Accuracy: 50.68377381684081%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/STL10_b8_adapter_norc.log ==
+Final Best Accuracy: 75.4875%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/SVHN_b4_adapter_norc.log ==
+Final Best Accuracy: 80.55854333128457%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/STL10_b2_adapter_norc.log ==
+Final Best Accuracy: 73.5125%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/FashionMNIST_b2_adapter_norc.log ==
+Final Best Accuracy: 83.41%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/STL10_b4_adapter_norc.log ==
+Final Best Accuracy: 75.0%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/SVHN_b8_adapter_norc.log ==
+Final Best Accuracy: 80.16287645974185%
+== claude/paper_results_bitwidth/cifar10_configA_bits/logs/FashionMNIST_b4_adapter_norc.log ==
+Final Best Accuracy: 85.4%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M3_norc.log ==
+Final Best Accuracy: 31.35%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M2_rc.log ==
+Final Best Accuracy: 28.81%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M3_norc.log ==
+Final Best Accuracy: 42.3440381069453%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M3_norc.log ==
+Final Best Accuracy: 26.468888888888888%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M3_rc.log ==
+Final Best Accuracy: 44.13030116779348%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M2_norc.log ==
+Final Best Accuracy: 30.79%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M4_norc.log ==
+Final Best Accuracy: 24.967777777777776%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M4_rc.log ==
+Final Best Accuracy: 44.64889366933006%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_full_ft.log ==
+Final Best Accuracy: 78.37%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M1_rc.log ==
+Final Best Accuracy: 29.31%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M1_norc.log ==
+Final Best Accuracy: 28.14%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_full_ft.log ==
+Final Best Accuracy: 59.1125%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M4_norc.log ==
+Final Best Accuracy: 27.76%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M1_rc.log ==
+Final Best Accuracy: 23.726666666666667%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M1_rc.log ==
+Final Best Accuracy: 39.12876459741856%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M1_norc.log ==
+Final Best Accuracy: 38.77919483712354%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_full_ft.log ==
+Final Best Accuracy: 94.36078672403197%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 26.83%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M4_norc.log ==
+Final Best Accuracy: 32.3%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M4_rc.log ==
+Final Best Accuracy: 31.875%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M2_norc.log ==
+Final Best Accuracy: 31.5125%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M1_norc.log ==
+Final Best Accuracy: 22.713333333333335%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M3_rc.log ==
+Final Best Accuracy: 31.96%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M1_norc.log ==
+Final Best Accuracy: 30.275%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M4_norc.log ==
+Final Best Accuracy: 42.26720958819914%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 25.756666666666668%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M1_rc.log ==
+Final Best Accuracy: 31.7375%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M2_norc.log ==
+Final Best Accuracy: 40.976490473263674%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 31.9625%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/STL10_M3_rc.log ==
+Final Best Accuracy: 32.7875%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M3_norc.log ==
+Final Best Accuracy: 30.5%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M2_norc.log ==
+Final Best Accuracy: 25.90222222222222%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_M4_rc.log ==
+Final Best Accuracy: 25.781111111111112%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CIFAR10_M4_rc.log ==
+Final Best Accuracy: 33.57%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/SVHN_M2_rc.log ==
+Final Best Accuracy: 43.26982175783651%
+== claude/paper_results_bitwidth/fashionmnist_to_others/logs/CINIC10_full_ft.log ==
+Final Best Accuracy: 64.62666666666667%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_FashionMNIST_v1v2_M4_rc.log ==
+Final Best Accuracy: 83.37%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_FashionMNIST_full_ft.log ==
+Final Best Accuracy: 92.3%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_v6_M4_rc.log ==
+Final Best Accuracy: 82.91717885679164%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_v1v2_M1_rc.log ==
+Final Best Accuracy: 73.18300553165335%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_CINIC10_full_ft.log ==
+Final Best Accuracy: 67.99%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_CINIC10_full_ft.log ==
+Final Best Accuracy: 68.01777777777778%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_v6_M4_rc.log ==
+Final Best Accuracy: 82.87876459741857%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_frozen_only.log ==
+Final Best Accuracy: 28.687768899815612%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_CINIC10_v1v2_M4_rc.log ==
+Final Best Accuracy: 65.4888888888889%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_STL10_v1v2_M4_rc.log ==
+Final Best Accuracy: 68.4125%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_v1v2_M4_rc.log ==
+Final Best Accuracy: 79.90165949600491%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_v6_M1_rc.log ==
+Final Best Accuracy: 75.18822987092808%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_frozen_only.log ==
+Final Best Accuracy: 28.66856177012907%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_full_ft.log ==
+Final Best Accuracy: 94.87937922556853%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_FashionMNIST_full_ft.log ==
+Final Best Accuracy: 92.35%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_v1v2_M1_rc.log ==
+Final Best Accuracy: 73.78226797787339%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_STL10_v1v2_M4_rc.log ==
+Final Best Accuracy: 68.0875%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_FashionMNIST_v1v2_M4_rc.log ==
+Final Best Accuracy: 83.47%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_STL10_full_ft.log ==
+Final Best Accuracy: 71.1125%
+== claude/paper_results_bitwidth/v_seed/logs/seed2025_SVHN_v6_M1_rc.log ==
+Final Best Accuracy: 76.03334357713584%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_v1v2_M4_rc.log ==
+Final Best Accuracy: 79.49446834665028%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_STL10_full_ft.log ==
+Final Best Accuracy: 71.175%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_CINIC10_v1v2_M4_rc.log ==
+Final Best Accuracy: 65.49%
+== claude/paper_results_bitwidth/v_seed/logs/seed2026_SVHN_full_ft.log ==
+Final Best Accuracy: 94.8179164105716%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M3_norc.log ==
+Final Best Accuracy: 76.25%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M3_norc.log ==
+Final Best Accuracy: 35.85%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M2_rc.log ==
+Final Best Accuracy: 46.97%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M3_norc.log ==
+Final Best Accuracy: 30.17888888888889%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M2_norc.log ==
+Final Best Accuracy: 39.57%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M4_norc.log ==
+Final Best Accuracy: 32.382222222222225%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M3_rc.log ==
+Final Best Accuracy: 81.85%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_full_ft.log ==
+Final Best Accuracy: 81.7%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M1_rc.log ==
+Final Best Accuracy: 45.71%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M1_norc.log ==
+Final Best Accuracy: 36.23%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_full_ft.log ==
+Final Best Accuracy: 63.1375%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M4_norc.log ==
+Final Best Accuracy: 44.31%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M1_rc.log ==
+Final Best Accuracy: 80.29%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M1_rc.log ==
+Final Best Accuracy: 33.894444444444446%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 36.06333333333333%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M4_norc.log ==
+Final Best Accuracy: 35.2%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M4_rc.log ==
+Final Best Accuracy: 36.525%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M2_norc.log ==
+Final Best Accuracy: 35.025%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M1_norc.log ==
+Final Best Accuracy: 29.836666666666666%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M4_rc.log ==
+Final Best Accuracy: 82.27%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M3_rc.log ==
+Final Best Accuracy: 48.18%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M1_norc.log ==
+Final Best Accuracy: 33.025%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 38.42888888888889%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M2_rc.log ==
+Final Best Accuracy: 81.6%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M4_norc.log ==
+Final Best Accuracy: 76.97%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M1_rc.log ==
+Final Best Accuracy: 32.5%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 36.625%
+== claude/paper_results_bitwidth/svhn_to_others/logs/STL10_M3_rc.log ==
+Final Best Accuracy: 36.5%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M3_norc.log ==
+Final Best Accuracy: 41.53%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M2_norc.log ==
+Final Best Accuracy: 32.147777777777776%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_M4_rc.log ==
+Final Best Accuracy: 36.70111111111111%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_full_ft.log ==
+Final Best Accuracy: 92.32%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CIFAR10_M4_rc.log ==
+Final Best Accuracy: 50.48%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M1_norc.log ==
+Final Best Accuracy: 73.25%
+== claude/paper_results_bitwidth/svhn_to_others/logs/FashionMNIST_M2_norc.log ==
+Final Best Accuracy: 75.36%
+== claude/paper_results_bitwidth/svhn_to_others/logs/CINIC10_full_ft.log ==
+Final Best Accuracy: 67.84666666666666%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M4_norc.log ==
+Final Best Accuracy: 69.08420405654579%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M2_rc.log ==
+Final Best Accuracy: 80.72756607252612%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M1_norc.log ==
+Final Best Accuracy: 63.05700676090965%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M1_norc.log ==
+Final Best Accuracy: 49.81177012907191%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M4_rc.log ==
+Final Best Accuracy: 84.43838352796558%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M1_rc.log ==
+Final Best Accuracy: 78.13076213890596%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M2_norc.log ==
+Final Best Accuracy: 66.11862323294407%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M1_rc.log ==
+Final Best Accuracy: 79.22940995697603%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M3_rc.log ==
+Final Best Accuracy: 82.35633066994468%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M3_rc.log ==
+Final Best Accuracy: 83.4780270436386%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M2_norc.log ==
+Final Best Accuracy: 53.902888752304854%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M3_norc.log ==
+Final Best Accuracy: 67.78964351567302%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M4_norc.log ==
+Final Best Accuracy: 56.26536570374923%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M4_rc.log ==
+Final Best Accuracy: 83.42424708051628%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v5_M3_norc.log ==
+Final Best Accuracy: 54.61355255070682%
+== claude/paper_results_bitwidth/v8_mid_out/logs/v6_M2_rc.log ==
+Final Best Accuracy: 83.00553165334972%
+== claude/paper_results_bitwidth/v8_mid_out/run_resume.log ==
+[v6_M4_rc] Final Best Accuracy: 84.43838352796558%
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M3_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M4_norc.log ==
+Final Best Accuracy: 67.7875%
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M4_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M1_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/STL10_M3_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_full_ft.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/SVHN_M2_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M1_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/FashionMNIST_M2_norc.log ==
+== claude/paper_results_bitwidth/cifar10_configC_cross/logs/CINIC10_full_ft.log ==
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b1.log ==
+Final Best Accuracy: 77.94%
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b32.log ==
+Final Best Accuracy: 93.83%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b8.log ==
+Final Best Accuracy: 77.94222222222223%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b32.log ==
+Final Best Accuracy: 75.4625%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b16.log ==
+Final Best Accuracy: 74.55%
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b4.log ==
+Final Best Accuracy: 93.92%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b1.log ==
+Final Best Accuracy: 64.20111111111112%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b16.log ==
+Final Best Accuracy: 77.99222222222222%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b8.log ==
+Final Best Accuracy: 74.45%
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b8.log ==
+Final Best Accuracy: 93.94%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b4.log ==
+Final Best Accuracy: 76.5375%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b2.log ==
+Final Best Accuracy: 76.06222222222222%
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b16.log ==
+Final Best Accuracy: 93.82%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b1.log ==
+Final Best Accuracy: 66.9125%
+== claude/paper_results_bitwidth/v_v3_cross/logs/STL10_b2.log ==
+Final Best Accuracy: 72.825%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b4.log ==
+Final Best Accuracy: 77.95555555555555%
+== claude/paper_results_bitwidth/v_v3_cross/logs/CINIC10_b32.log ==
+Final Best Accuracy: 78.08333333333333%
+== claude/paper_results_bitwidth/v_v3_cross/logs/FashionMNIST_b2.log ==
+Final Best Accuracy: 93.46%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M3_norc.log ==
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M2_rc.log ==
+Final Best Accuracy: 78.21%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M3_norc.log ==
+Final Best Accuracy: 64.47449293177627%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M3_rc.log ==
+Final Best Accuracy: 73.02550706822373%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M2_norc.log ==
+Final Best Accuracy: 77.85%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M4_rc.log ==
+Final Best Accuracy: 71.48893669330056%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_full_ft.log ==
+Final Best Accuracy: 80.92%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M1_rc.log ==
+Final Best Accuracy: 77.81%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M1_norc.log ==
+Final Best Accuracy: 77.44%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_full_ft.log ==
+Final Best Accuracy: 70.375%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M4_norc.log ==
+Final Best Accuracy: 77.99%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M1_rc.log ==
+Final Best Accuracy: 65.23509526736325%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M1_norc.log ==
+Final Best Accuracy: 57.38706207744315%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_full_ft.log ==
+Final Best Accuracy: 94.61816226183159%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M4_norc.log ==
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M4_rc.log ==
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M2_norc.log ==
+Final Best Accuracy: 66.9125%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M3_rc.log ==
+Final Best Accuracy: 78.15%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M1_norc.log ==
+Final Best Accuracy: 66.7875%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M4_norc.log ==
+Final Best Accuracy: 67.91256914566686%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M1_rc.log ==
+Final Best Accuracy: 66.7625%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M2_norc.log ==
+Final Best Accuracy: 62.7420098340504%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 67.2625%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/STL10_M3_rc.log ==
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M3_norc.log ==
+Final Best Accuracy: 77.99%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/FashionMNIST_full_ft.log ==
+Final Best Accuracy: 91.99%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/CIFAR10_M4_rc.log ==
+Final Best Accuracy: 78.46%
+== claude/paper_results_bitwidth/cinic10_to_others/logs/SVHN_M2_rc.log ==
+Final Best Accuracy: 70.57467732022127%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M3_norc.log ==
+Final Best Accuracy: 74.96%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M3_norc.log ==
+Final Best Accuracy: 67.475%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M3_norc.log ==
+Final Best Accuracy: 64.2688888888889%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M4_norc.log ==
+Final Best Accuracy: 64.42222222222222%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M3_rc.log ==
+Final Best Accuracy: 82.82%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M1_rc.log ==
+Final Best Accuracy: 80.42%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M1_rc.log ==
+Final Best Accuracy: 64.80333333333333%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 65.38111111111111%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M4_norc.log ==
+Final Best Accuracy: 67.5%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M4_rc.log ==
+Final Best Accuracy: 68.0625%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M2_norc.log ==
+Final Best Accuracy: 67.2%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M1_norc.log ==
+Final Best Accuracy: 63.80555555555556%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M4_rc.log ==
+Final Best Accuracy: 83.54%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M1_norc.log ==
+Final Best Accuracy: 66.525%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 65.1588888888889%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M2_rc.log ==
+Final Best Accuracy: 82.0%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M4_norc.log ==
+Final Best Accuracy: 76.18%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M1_rc.log ==
+Final Best Accuracy: 67.4625%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 67.575%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/STL10_M3_rc.log ==
+Final Best Accuracy: 68.0%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M2_norc.log ==
+Final Best Accuracy: 64.10333333333334%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/CINIC10_M4_rc.log ==
+Final Best Accuracy: 65.45444444444445%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M1_norc.log ==
+Final Best Accuracy: 71.32%
+== claude/paper_results_bitwidth/v9_cross_dataset/logs/FashionMNIST_M2_norc.log ==
+Final Best Accuracy: 73.73%
+== claude/paper_results_bitwidth/v5/logs/v5_b1.log ==
+Final Best Accuracy: 78.13076213890596%
+== claude/paper_results_bitwidth/v5/logs/v5_b32.log ==
+Final Best Accuracy: 83.1438229870928%
+== claude/paper_results_bitwidth/v5/logs/v5_b2.log ==
+Final Best Accuracy: 80.15135218192994%
+== claude/paper_results_bitwidth/v5/logs/v5_b4.log ==
+Final Best Accuracy: 84.47295636140136%
+== claude/paper_results_bitwidth/v5/logs/v5_b8.log ==
+Final Best Accuracy: 84.41917639827903%
+== claude/paper_results_bitwidth/v5/logs/v5_b16.log ==
+Final Best Accuracy: 83.1399815611555%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M4_norc.log ==
+Final Best Accuracy: 70.92040565457899%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M2_rc.log ==
+Final Best Accuracy: 76.82467732022127%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M1_norc.log ==
+Final Best Accuracy: 64.48217578365089%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M1_norc.log ==
+Final Best Accuracy: 47.664413030116776%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M4_norc.log ==
+Final Best Accuracy: 59.79179471419791%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M4_rc.log ==
+Final Best Accuracy: 83.31284572833435%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M1_rc.log ==
+Final Best Accuracy: 73.7937922556853%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M1_norc.log ==
+Final Best Accuracy: 50.68377381684081%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M2_norc.log ==
+Final Best Accuracy: 65.62307928703135%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M3_rc.log ==
+Final Best Accuracy: 78.76843884449907%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M1_rc.log ==
+Final Best Accuracy: 73.72080516287646%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M1_rc.log ==
+Final Best Accuracy: 74.31238475722188%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M4_rc.log ==
+Final Best Accuracy: 79.81330669944684%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M3_rc.log ==
+Final Best Accuracy: 80.5278119237861%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M3_rc.log ==
+Final Best Accuracy: 83.23217578365089%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M2_rc.log ==
+Final Best Accuracy: 77.15503995082975%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M2_norc.log ==
+Final Best Accuracy: 48.83988936693301%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M3_norc.log ==
+Final Best Accuracy: 57.4139520590043%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M3_norc.log ==
+Final Best Accuracy: 70.08297480024585%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M4_norc.log ==
+Final Best Accuracy: 56.55347264904733%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v1v2_M2_norc.log ==
+Final Best Accuracy: 55.1359864781807%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M4_rc.log ==
+Final Best Accuracy: 81.96834665027659%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v5_M3_norc.log ==
+Final Best Accuracy: 54.32160417947142%
+== claude/paper_results_bitwidth/v7_multi_rc/logs/v6_M2_rc.log ==
+Final Best Accuracy: 79.9938537185003%
+== claude/paper_results_bitwidth/fashionmnist_pretrain/logs/fashionmnist_b1.log ==
+Final Best Accuracy: 90.21%
+== claude/paper_results_bitwidth/fashionmnist_pretrain/logs/fashionmnist_b4.log ==
+Final Best Accuracy: 94.38%
+== claude/paper_results_bitwidth/fashionmnist_pretrain/logs/fashionmnist_b2.log ==
+Final Best Accuracy: 93.92%
+== claude/paper_results_bitwidth/fashionmnist_pretrain/logs/fashionmnist_b8.log ==
+Final Best Accuracy: 94.67%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/FashionMNIST_b32.log ==
+Final Best Accuracy: 94.3%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/CINIC10_b8.log ==
+Final Best Accuracy: 80.14222222222222%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/STL10_b32.log ==
+Final Best Accuracy: 78.925%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/STL10_b16.log ==
+Final Best Accuracy: 79.175%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/FashionMNIST_b4.log ==
+Final Best Accuracy: 94.48%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/CINIC10_b16.log ==
+Final Best Accuracy: 80.25111111111111%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/STL10_b8.log ==
+Final Best Accuracy: 78.9125%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/FashionMNIST_b8.log ==
+Final Best Accuracy: 94.53%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/STL10_b4.log ==
+Final Best Accuracy: 79.475%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/CINIC10_b2.log ==
+Final Best Accuracy: 78.23777777777778%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/FashionMNIST_b16.log ==
+Final Best Accuracy: 94.46%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/STL10_b2.log ==
+Final Best Accuracy: 77.4375%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/CINIC10_b4.log ==
+Final Best Accuracy: 80.01444444444445%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/CINIC10_b32.log ==
+Final Best Accuracy: 80.2911111111111%
+== claude/paper_results_bitwidth/v9ft_cross_bit/logs/FashionMNIST_b2.log ==
+Final Best Accuracy: 94.11%
+== claude/paper_results_bitwidth/v9_ft_baseline/logs/STL10_full_ft.log ==
+Final Best Accuracy: 71.05%
+== claude/paper_results_bitwidth/v9_ft_baseline/logs/FashionMNIST_full_ft.log ==
+Final Best Accuracy: 92.36%
+== claude/paper_results_bitwidth/v9_ft_baseline/logs/CINIC10_full_ft.log ==
+Final Best Accuracy: 68.02%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/FashionMNIST_M3_rc.log ==
+Final Best Accuracy: 83.63%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 64.85444444444444%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/STL10_M4_rc.log ==
+Final Best Accuracy: 68.15%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/FashionMNIST_M4_rc.log ==
+Final Best Accuracy: 83.6%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 64.71444444444444%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/FashionMNIST_M2_rc.log ==
+Final Best Accuracy: 83.57%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/STL10_M2_rc.log ==
+Final Best Accuracy: 67.475%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/STL10_M3_rc.log ==
+Final Best Accuracy: 67.675%
+== claude/paper_results_bitwidth/configC_sw_multi/logs/CINIC10_M4_rc.log ==
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/SVHN_b2_adapter_rc.log ==
+Final Best Accuracy: 74.43915181315305%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/FashionMNIST_b1_adapter_rc.log ==
+Final Best Accuracy: 80.42%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/CINIC10_b4_adapter_rc.log ==
+Final Best Accuracy: 74.89555555555556%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/FashionMNIST_b8_adapter_rc.log ==
+Final Best Accuracy: 85.76%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/STL10_b8_adapter_rc.log ==
+Final Best Accuracy: 75.3625%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/FashionMNIST_b4_adapter_rc.log ==
+Final Best Accuracy: 85.48%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/SVHN_b4_adapter_rc.log ==
+Final Best Accuracy: 79.96312231100184%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/SVHN_b1_adapter_rc.log ==
+Final Best Accuracy: 73.72080516287646%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/CINIC10_b8_adapter_rc.log ==
+Final Best Accuracy: 75.41888888888889%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/STL10_b1_adapter_rc.log ==
+Final Best Accuracy: 67.4625%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/FashionMNIST_b2_adapter_rc.log ==
+Final Best Accuracy: 83.18%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/STL10_b4_adapter_rc.log ==
+Final Best Accuracy: 74.425%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/CINIC10_b2_adapter_rc.log ==
+Final Best Accuracy: 73.09222222222222%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/CINIC10_b1_adapter_rc.log ==
+Final Best Accuracy: 64.80333333333333%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/SVHN_b8_adapter_rc.log ==
+Final Best Accuracy: 80.4778733866011%
+== claude/paper_results_bitwidth/cifar10_configA_bits_rc/logs/STL10_b2_adapter_rc.log ==
+Final Best Accuracy: 73.5375%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b32.log ==
+Final Best Accuracy: 95.77443146896128%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b4.log ==
+Final Best Accuracy: 95.48632452366319%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b1.log ==
+Final Best Accuracy: 62.75353411186232%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b2.log ==
+Final Best Accuracy: 95.4978488014751%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b8.log ==
+Final Best Accuracy: 95.82821143208359%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b8.log ==
+Final Best Accuracy: 92.09050399508297%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b4.log ==
+Final Best Accuracy: 91.89459127228027%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b32.log ==
+Final Best Accuracy: 91.91763982790411%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b1.log ==
+Final Best Accuracy: 63.05700676090965%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b2.log ==
+Final Best Accuracy: 88.45651505838967%
+== claude/paper_results_bitwidth/v3_compare/logs/k1_b16.log ==
+Final Best Accuracy: 91.92148125384142%
+== claude/paper_results_bitwidth/v3_compare/logs/k3_b16.log ==
+Final Best Accuracy: 95.72449293177627%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b32.log ==
+Final Best Accuracy: 96.29686539643515%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b8.log ==
+Final Best Accuracy: 96.36216963736939%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b2.log ==
+Final Best Accuracy: 96.0241241548863%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b4.log ==
+Final Best Accuracy: 96.33912108174555%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b16.log ==
+Final Best Accuracy: 96.35064535955746%
+== claude/paper_results_bitwidth/svhn_pretrain/logs/svhn_b1.log ==
+Final Best Accuracy: 94.91011063306699%
+== claude/paper_results_bitwidth/svhn_pretrain/run_bits.log ==
+Binary file claude/paper_results_bitwidth/svhn_pretrain/run_bits.log matches
+== claude/paper_results_bitwidth/svhn_pretrain/run.log ==
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b8_full_ft.log ==
+Final Best Accuracy: 80.14222222222222%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b1_adapter_norc.log ==
+Final Best Accuracy: 77.71%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b2_full_ft.log ==
+Final Best Accuracy: 78.23777777777778%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b4_adapter_norc.log ==
+Final Best Accuracy: 77.57444444444444%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b4_full_ft.log ==
+Final Best Accuracy: 94.48%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b2_full_ft.log ==
+Final Best Accuracy: 96.06637984019667%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b1_adapter_norc.log ==
+Final Best Accuracy: 67.0625%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b8_adapter_norc.log ==
+Final Best Accuracy: 77.41555555555556%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b1_full_ft.log ==
+Final Best Accuracy: 92.36%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b1_full_ft.log ==
+Final Best Accuracy: 71.05%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b4_full_ft.log ==
+Final Best Accuracy: 80.01444444444445%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b1_full_ft.log ==
+Final Best Accuracy: 68.02%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b8_full_ft.log ==
+Final Best Accuracy: 96.13168408113091%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b2_adapter_norc.log ==
+Final Best Accuracy: 75.71777777777778%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b8_adapter_norc.log ==
+Final Best Accuracy: 93.77%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/CINIC10_b1_adapter_norc.log ==
+Final Best Accuracy: 64.23666666666666%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b2_adapter_norc.log ==
+Final Best Accuracy: 95.09834050399509%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b1_adapter_norc.log ==
+Final Best Accuracy: 64.48217578365089%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b8_adapter_norc.log ==
+Final Best Accuracy: 76.2375%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b2_full_ft.log ==
+Final Best Accuracy: 94.11%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b4_adapter_norc.log ==
+Final Best Accuracy: 95.72449293177627%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b1_full_ft.log ==
+Final Best Accuracy: 94.91011063306699%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b8_full_ft.log ==
+Final Best Accuracy: 94.53%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b2_full_ft.log ==
+Final Best Accuracy: 77.4375%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b4_full_ft.log ==
+Final Best Accuracy: 79.475%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b2_adapter_norc.log ==
+Final Best Accuracy: 75.9375%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b8_full_ft.log ==
+Final Best Accuracy: 78.9125%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b2_adapter_norc.log ==
+Final Best Accuracy: 93.01%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/STL10_b4_adapter_norc.log ==
+Final Best Accuracy: 76.4875%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b4_full_ft.log ==
+Final Best Accuracy: 96.07022126613398%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/SVHN_b8_adapter_norc.log ==
+Final Best Accuracy: 95.6438229870928%
+== claude/paper_results_bitwidth/cifar10_to_others_bits/logs/FashionMNIST_b4_adapter_norc.log ==
+Final Best Accuracy: 93.79%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M3_norc.log ==
+Final Best Accuracy: 83.55%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M2_rc.log ==
+Final Best Accuracy: 68.47%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M3_norc.log ==
+Final Best Accuracy: 72.75660725261217%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M3_norc.log ==
+Final Best Accuracy: 55.068888888888885%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M3_rc.log ==
+Final Best Accuracy: 75.99877074370006%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M2_norc.log ==
+Final Best Accuracy: 67.4%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M4_norc.log ==
+Final Best Accuracy: 55.16888888888889%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M4_rc.log ==
+Final Best Accuracy: 78.05393362015981%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M3_rc.log ==
+Final Best Accuracy: 85.38%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_full_ft.log ==
+Final Best Accuracy: 83.01%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M1_rc.log ==
+Final Best Accuracy: 67.28%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M1_norc.log ==
+Final Best Accuracy: 66.05%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M4_norc.log ==
+Final Best Accuracy: 68.43%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M1_rc.log ==
+Final Best Accuracy: 83.23%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M1_rc.log ==
+Final Best Accuracy: 54.535555555555554%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M1_rc.log ==
+Final Best Accuracy: 70.70528580208973%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M1_norc.log ==
+Final Best Accuracy: 63.11846957590657%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_full_ft.log ==
+Final Best Accuracy: 95.32114320835895%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M3_rc.log ==
+Final Best Accuracy: 56.333333333333336%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M1_norc.log ==
+Final Best Accuracy: 53.68666666666667%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M4_rc.log ==
+Final Best Accuracy: 86.19%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M3_rc.log ==
+Final Best Accuracy: 69.13%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M4_norc.log ==
+Final Best Accuracy: 75.15749846342962%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M2_rc.log ==
+Final Best Accuracy: 56.01%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M2_rc.log ==
+Final Best Accuracy: 84.37%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M4_norc.log ==
+Final Best Accuracy: 84.07%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M2_norc.log ==
+Final Best Accuracy: 70.04456054087277%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M3_norc.log ==
+Final Best Accuracy: 67.56%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M2_norc.log ==
+Final Best Accuracy: 54.754444444444445%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_M4_rc.log ==
+Final Best Accuracy: 56.72555555555556%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_full_ft.log ==
+Final Best Accuracy: 92.73%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CIFAR10_M4_rc.log ==
+Final Best Accuracy: 69.47%
+== claude/paper_results_bitwidth/stl10_to_others/logs/SVHN_M2_rc.log ==
+Final Best Accuracy: 75.86432083589429%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M1_norc.log ==
+Final Best Accuracy: 81.02%
+== claude/paper_results_bitwidth/stl10_to_others/logs/FashionMNIST_M2_norc.log ==
+Final Best Accuracy: 82.49%
+== claude/paper_results_bitwidth/stl10_to_others/logs/CINIC10_full_ft.log ==
+Final Best Accuracy: 70.18222222222222%
+== claude/paper_results_bitwidth/v4/logs/v4_b8.log ==
+Final Best Accuracy: 84.05039950829747%
+== claude/paper_results_bitwidth/v4/logs/v4_b16.log ==
+Final Best Accuracy: 82.40626920712968%
+== claude/paper_results_bitwidth/v4/logs/v4_b4.log ==
+Final Best Accuracy: 83.35510141364475%
+== claude/paper_results_bitwidth/v4/logs/v4_b2.log ==
+Final Best Accuracy: 82.3140749846343%
+== claude/paper_results_bitwidth/v4/logs/v4_b1.log ==
+Final Best Accuracy: 49.81177012907191%
+== claude/paper_results_bitwidth/v4/logs/v4_b32.log ==
+Final Best Accuracy: 82.7020590043024%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/SVHN_b2_adapter_rc.log ==
+Final Best Accuracy: 95.5401044867855%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/FashionMNIST_b1_adapter_rc.log ==
+Final Best Accuracy: 82.71%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/CINIC10_b4_adapter_rc.log ==
+Final Best Accuracy: 77.84777777777778%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/FashionMNIST_b8_adapter_rc.log ==
+Final Best Accuracy: 93.78%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/STL10_b8_adapter_rc.log ==
+Final Best Accuracy: 75.8875%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/FashionMNIST_b4_adapter_rc.log ==
+Final Best Accuracy: 93.9%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/SVHN_b4_adapter_rc.log ==
+Final Best Accuracy: 95.81668715427166%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/SVHN_b1_adapter_rc.log ==
+Final Best Accuracy: 79.22940995697603%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/CINIC10_b8_adapter_rc.log ==
+Final Best Accuracy: 77.7911111111111%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/STL10_b1_adapter_rc.log ==
+Final Best Accuracy: 67.5%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/FashionMNIST_b2_adapter_rc.log ==
+Final Best Accuracy: 93.26%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/STL10_b4_adapter_rc.log ==
+Final Best Accuracy: 76.25%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/CINIC10_b2_adapter_rc.log ==
+Final Best Accuracy: 75.82666666666667%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/CINIC10_b1_adapter_rc.log ==
+Final Best Accuracy: 64.5%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/SVHN_b8_adapter_rc.log ==
+Final Best Accuracy: 95.79363859864782%
+== claude/paper_results_bitwidth/cifar10_configC_bits_rc/logs/STL10_b2_adapter_rc.log ==
+Final Best Accuracy: 72.675%

@@ -1,0 +1,13 @@
+dataset,bit,mode,acc,params,returncode
+CINIC10,1,adapter_norc,63.81,1605063,0
+CINIC10,2,adapter_norc,73.15,1605071,0
+CINIC10,4,adapter_norc,74.94,1605071,0
+CINIC10,8,adapter_norc,75.4,1605071,0
+FashionMNIST,1,adapter_norc,71.32,1605063,0
+FashionMNIST,2,adapter_norc,83.41,1605071,0
+FashionMNIST,4,adapter_norc,85.4,1605071,0
+FashionMNIST,8,adapter_norc,85.34,1605071,0
+STL10,1,adapter_norc,66.53,1605063,0
+STL10,2,adapter_norc,73.51,1605071,0
+STL10,4,adapter_norc,75.0,1605071,0
+STL10,8,adapter_norc,75.49,1605071,0

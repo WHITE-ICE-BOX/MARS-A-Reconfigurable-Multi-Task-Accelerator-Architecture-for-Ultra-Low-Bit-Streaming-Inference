@@ -1,0 +1,5 @@
+dataset,bit,mode,acc,params,returncode
+CIFAR10,8,adapter_rc,90.54,1875423,0
+FashionMNIST,8,adapter_rc,93.77,1875423,0
+STL10,8,adapter_rc,74.19,1875423,0
+SVHN,8,adapter_rc,95.72,1875423,0

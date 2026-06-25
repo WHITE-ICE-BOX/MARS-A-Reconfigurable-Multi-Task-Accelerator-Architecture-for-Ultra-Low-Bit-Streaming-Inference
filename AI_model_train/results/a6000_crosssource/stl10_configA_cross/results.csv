@@ -1,0 +1,5 @@
+dataset,mode,M,rc,acc,params,returncode
+CINIC10,adapter,1,True,54.26,1605223,0
+CINIC10,adapter,2,True,55.33,1663756,0
+CINIC10,adapter,3,True,56.17,1722289,0
+CINIC10,adapter,4,True,56.56,1780822,0

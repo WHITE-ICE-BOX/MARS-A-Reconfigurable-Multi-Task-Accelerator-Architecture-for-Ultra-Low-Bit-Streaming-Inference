@@ -1,0 +1,5 @@
+variant,M,rc,acc,params,returncode
+v1v2,3,False,59.04,1767889,0
+v1v2,3,True,80.11,1768513,0
+v1v2,4,False,61.38,1841622,0
+v1v2,4,True,80.05,1842454,0

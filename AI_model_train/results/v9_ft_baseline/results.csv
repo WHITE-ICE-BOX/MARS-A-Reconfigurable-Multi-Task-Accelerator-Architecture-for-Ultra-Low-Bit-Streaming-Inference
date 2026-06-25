@@ -1,0 +1,4 @@
+dataset,acc,params,returncode
+CINIC10,68.02,1546690,0
+FashionMNIST,92.36,1546690,0
+STL10,71.05,1546690,0

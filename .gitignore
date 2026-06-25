@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+*.jou
+*.backup.*
+.ipynb_checkpoints/
