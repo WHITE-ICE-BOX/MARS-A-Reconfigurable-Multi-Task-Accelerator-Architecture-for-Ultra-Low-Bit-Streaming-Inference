@@ -36,9 +36,35 @@ RTL/
     ├── package_mvau5_only.tcl       #  打包 MVAU5
     ├── make_project.tcl             #  建立 Vivado 工程
     └── build_bitstream.tcl          #  完整建置流程（stitch → zynq → bitstream）
+│
+├── mvau_core/                       # ── FINN 生成、本論文修改過的 MVAU 核心（MVAU0–8）──
+│   ├── mvau1/ .. mvau5/             #  含 adapter 的卷積層：Matrix_Vector_Activate、memstream、
+│   │                                #    threshold ROM、MVAU_hls 頂層…+ memblock.dat
+│   └── mvau0/ mvau6/ mvau7/ mvau8/  #  FC/無 adapter 層（修改點：threshold/memstream 可由 cfg_hub 寫）
+│                                    #  修改重點：MVAU 輸出『整數 partial-sum』供 Adapter 融合（非直接二值化）
+│
+├── hardware_assets/                 # ── RTL 消費的 .dat 權重（97 個）──
+│   ├── mvau_{0..8}_memblock.dat     #  各 MVAU 的 FINN 二值權重 memblock
+│   ├── adapter_{1..5}_{down,up,rc,alpha}.dat   #  各層 adapter 權重
+│   └── *_contrib_lut.dat / thresh   #  contribution LUT、Q8 thresholds…
+│
+└── gen_scripts/                     # ── PyTorch 參數 → .dat/ROM 轉換腳本 ──
+    ├── final_sw.py                  #  ★ 主匯出：載入 checkpoint → 產生全部 hardware_assets/*.dat（PE=1）
+    ├── export_for_fpga.py           #  通用版匯出器
+    ├── prepack_adapter_dat.py       #  把 adapter .dat 打包成 $readmemh 寬格式
+    ├── make_adp_contrib_luts.py     #  產生 contribution LUT
+    ├── generate_thresh_q8_mvau5.py  #  產生 MVAU5 Q8 threshold ROM
+    ├── generate_mvau1234_golden.py / generate_mvau5_hw_aligned.py  #  golden / hw-aligned 資產
+    ├── fix_rc_dat.py / gen_npy_golden.py   #  工具
+    └── RC_m1_full.tar               #  final_sw.py 載入的 HW 匯出 checkpoint（deployed M1 + RC）
 ```
 
 ★ = 對應論文核心貢獻「單一 bitstream、控制器無關的多任務切換」。
+
+> **PyTorch → 硬體流程**：訓練好的 checkpoint（`gen_scripts/RC_m1_full.tar`）經
+> `final_sw.py` 轉成 `hardware_assets/*.dat`（FINN memblock + adapter 權重 + LUT/threshold），
+> 由 `mvau_core/` 的 RTL 以 `$readmemh` 載入；`prepack_adapter_dat.py` 負責把 adapter 權重
+> 打包成 ROM 寬格式。板端 runtime 切換則改用 `FPGA/.../runtime_weights/*.bin`（由相同來源產生）。
 
 ---
 
