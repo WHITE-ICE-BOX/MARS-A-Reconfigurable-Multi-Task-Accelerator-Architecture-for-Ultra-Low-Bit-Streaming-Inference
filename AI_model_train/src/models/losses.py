@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 損失函數（SqrHinge 等）。
+# ===========================================================================
+
 # models/losses.py
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause

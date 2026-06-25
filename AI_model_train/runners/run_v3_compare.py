@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：單軸消融：3×3 vs 1×1 down-conv（kernel 軸，50ep no-RC）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v3 comparison sweep: 3x3 vs 1x1 down-conv, full-alignment QuantConvAdapter
 (QuantReLU/binary make_act + per-channel alpha), 6 bits each, 50 epochs.

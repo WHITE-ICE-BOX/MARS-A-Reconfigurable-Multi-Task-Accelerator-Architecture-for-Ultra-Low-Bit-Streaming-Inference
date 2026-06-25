@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 自訂資料集的 FINN 模型驗證。流程：FINN_Compile。
+# ===========================================================================
+
 # Identical to FINN's official validate.py EXCEPT the dataset comes from
 # pre-dumped canonical .npy (board has no internet/dataset_loading).
 # Verifies the PLAIN PE=1 cifar10_1w1a backbone bitstream the official way.

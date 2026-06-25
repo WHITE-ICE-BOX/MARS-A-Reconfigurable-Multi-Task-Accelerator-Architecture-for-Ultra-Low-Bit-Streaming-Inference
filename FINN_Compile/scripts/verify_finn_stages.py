@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 驗證 FINN 各階段 ONNX 輸出的數值正確性。流程：FINN_Compile。
+# ===========================================================================
+
 # Staged FINN verification: run execute_onnx on each transform stage vs
 # CIFAR-10 labels, to localize where 81% (PyTorch) -> 10% (HW) breaks.
 import numpy as np

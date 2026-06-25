@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# 單一 Conv-Adapter 定義：down-projection -> sign(二值化) -> up-projection，
+# 並含 RC(Residual Correction = down-conv 的 Int8 bias)。對應硬體 RTL/adapter/。
+# ===========================================================================
+
 """
 v3 Conv-Adapter: aligned to user's previously-working non-brevitas implementation.
 

@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：full-FT 上界（1-bit，解凍全網路）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v9_ft baseline: full fine-tune upper bound for cross-dataset transfer.
 

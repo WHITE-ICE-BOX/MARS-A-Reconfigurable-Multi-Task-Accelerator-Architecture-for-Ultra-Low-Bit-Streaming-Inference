@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# batch-1000 吞吐量量測（-> 1866 img/s）。流程：FPGA(throughput build)。
+# ===========================================================================
+
 """Batch accuracy test for CIFAR-10 and SVHN modes."""
 import struct, time, os, numpy as np
 from pynq import Overlay, MMIO, allocate

@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# 切換延遲(switch latency)量測（-> 1.86 ms）。流程：FPGA(compact)。
+# ===========================================================================
+
 """SOFTWARE-ONLY switch-time benchmark + correctness spot-check on board.
 Uses the EXISTING resizer_3ds_v3.bit (no rebuild, no RTL). Compares baseline
 RuntimeSwitcher.switch (full fancy-scatter write) vs FastRuntimeSwitcher

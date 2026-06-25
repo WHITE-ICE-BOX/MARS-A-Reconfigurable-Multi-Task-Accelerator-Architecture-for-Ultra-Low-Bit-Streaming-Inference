@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：n=5 paired t-test 顯著性（deployed 幾何，SVHN/Fashion × M1/M4）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 import os, subprocess, re, csv, time, sys
 THIS="/home/esl/barkie/bnn_pynq/bnn_pynq/claude"
 TRAIN=THIS+"/bnn_pynq_train_bitwidth.py"

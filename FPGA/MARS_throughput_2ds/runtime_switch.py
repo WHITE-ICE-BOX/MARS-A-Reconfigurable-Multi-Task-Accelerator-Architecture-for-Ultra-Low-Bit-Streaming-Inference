@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# runtime 切換流程（throughput build, 2 資料集）。流程：FPGA。
+# ===========================================================================
+
 """
 runtime_switch.py — Runtime dataset switching on FPGA
 Switches between CIFAR-10 (backbone-only) and SVHN (adapter-on) modes

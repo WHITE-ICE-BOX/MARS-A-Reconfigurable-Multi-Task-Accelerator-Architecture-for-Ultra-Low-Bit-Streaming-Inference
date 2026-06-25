@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# runner：補齊軟體多 Adapter 表缺的 9 格。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """Software-version (config C / v6: kernel=3, ReLU, per-channel alpha, mid='out')
 multi-branch (M=2,3,4) WITH RC, CIFAR-10 -> {FashionMNIST, STL10, CINIC10}, 1-bit, 200ep.
 Fills the 9 missing cells of the software-version multi-adapter table.

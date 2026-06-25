@@ -1,3 +1,11 @@
+// ===========================================================================
+// [交接導向註解]
+// 模組：第 3 層卷積 MVAU3 的 Conv-Adapter 資料路徑。流程：RTL。
+// 管線：S0 latch/讀ROM -> S1 XNOR(1-bit乘) -> S2 popcount -> S3 accumulate(+RC)。
+// I/O：輸入來自 Stream_Splitter；輸出 adapter 貢獻量給 Stream_Adder_Threshold。
+// 權重：down/up/rc/sign 來自 cfg_hub 寫入的 RAM（runtime 可換任務）。
+// ===========================================================================
+
 `timescale 1ns / 1ps
 
 module Adapter_MVAU3 #(

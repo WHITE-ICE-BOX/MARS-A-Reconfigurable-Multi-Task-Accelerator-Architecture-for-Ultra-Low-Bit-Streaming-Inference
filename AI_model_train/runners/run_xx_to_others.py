@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：跨來源遷移：每個 backbone -> 其餘 4 target，1-bit、M=1..4 + full-FT。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 Generic 1-bit v6 sweep: {source} -> all other datasets (mirror svhn_to_others).
 

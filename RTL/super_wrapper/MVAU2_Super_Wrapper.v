@@ -1,3 +1,9 @@
+// ===========================================================================
+// [交接導向註解]
+// 模組：第 2 層 Super Wrapper（頂層）。流程：RTL，取代 FINN 預設 MVAU。
+// 資料流：Stream_Splitter -> (MVAU主幹 ‖ Adapter) -> Simple_FIFO 對齊 -> Stream_Adder_Threshold。
+// ===========================================================================
+
 `timescale 1ns / 1ps
 
 module MVAU2_Super_Wrapper (

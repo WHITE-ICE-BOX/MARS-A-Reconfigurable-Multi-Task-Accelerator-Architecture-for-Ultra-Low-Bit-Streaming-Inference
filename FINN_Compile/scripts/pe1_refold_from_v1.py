@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# 把已驗證的 PE=32 dataflow model 重折疊(refold)成 PE=1（compact build 用）。
+# 流程：FINN_Compile。跳過會出錯的 streamline，直接改每層 MVAU 的折疊度。
+# ===========================================================================
+
 """
 Take v1's already-streamlined dataflow_model.onnx (PE=32 baseline) and refold to PE=1.
 Skip the broken Streamline step entirely.

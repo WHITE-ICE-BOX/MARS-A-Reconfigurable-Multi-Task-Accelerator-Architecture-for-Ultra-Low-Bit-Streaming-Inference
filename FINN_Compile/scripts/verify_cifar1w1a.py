@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# CIFAR-10 1W1A 端到端正確性檢查。流程：FINN_Compile。
+# ===========================================================================
+
 # Verify cifar10_1w1a checkpoint in PURE PyTorch (brevitas_examples CNV,
 # exactly as notebook cell 7). Decisive: which preprocessing gives ~81%?
 import torch, numpy as np

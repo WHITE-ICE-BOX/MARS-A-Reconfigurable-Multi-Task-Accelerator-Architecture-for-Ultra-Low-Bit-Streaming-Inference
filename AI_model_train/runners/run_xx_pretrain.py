@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：預訓練 5 個 1W1A backbone（每個 source 一個）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 Generic backbone pretrainer: pretrain any source dataset at any list of bit-widths.
 

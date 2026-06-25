@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：跨來源 bit-width sweep（1/2/4/8-bit）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 Generic bit-width sweep: {source} -> all other datasets.
 

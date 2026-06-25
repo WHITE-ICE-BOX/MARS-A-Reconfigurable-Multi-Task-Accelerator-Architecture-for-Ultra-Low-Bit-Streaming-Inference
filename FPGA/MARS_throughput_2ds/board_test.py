@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# 板上精度測試。流程：FPGA(throughput build)。
+# ===========================================================================
+
 """
 On-board accuracy verification for runtime dataset switching.
 Self-contained: no qonnx/finn dependencies, uses raw MMIO DMA control.

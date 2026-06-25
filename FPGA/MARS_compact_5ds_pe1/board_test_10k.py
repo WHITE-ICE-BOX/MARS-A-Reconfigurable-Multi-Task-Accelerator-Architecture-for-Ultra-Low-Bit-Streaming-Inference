@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# ===========================================================================
+# [交接導向註解]
+# 各資料集 10,000 張板上精度測試（-> 論文板上精度表）。流程：FPGA(compact)。
+# ===========================================================================
+
 """
 On-board 3-dataset accuracy verification for PE=1 BNN bitstream.
 Bitstream: resizer_3ds.bit (PE=1 backbone + 5 cfg-writable adapter wrappers).

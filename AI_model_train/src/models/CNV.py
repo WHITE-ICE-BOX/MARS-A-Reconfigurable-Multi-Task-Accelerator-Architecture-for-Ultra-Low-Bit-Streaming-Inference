@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# CNV backbone 定義（Brevitas QuantConv2d/Linear，1W1A）。被訓練與 FINN 匯出共用。
+# ===========================================================================
+
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause
 

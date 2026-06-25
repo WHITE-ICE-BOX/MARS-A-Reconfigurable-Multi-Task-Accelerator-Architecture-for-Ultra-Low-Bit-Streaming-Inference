@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 舊版單一 bit-width 訓練入口（保留供參考；主用 bnn_pynq_train_bitwidth.py）。
+# ===========================================================================
+
 # bnn_pynq_train.py
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause

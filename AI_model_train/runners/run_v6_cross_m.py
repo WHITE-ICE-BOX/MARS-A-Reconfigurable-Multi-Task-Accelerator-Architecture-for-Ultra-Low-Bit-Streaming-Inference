@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：accuracy-best 跨資料集 M=1..3（補滿 M-sweep）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v_v6_cross_m: v6 design × M={1,2,3} × {norc,rc} × 3 datasets = 18 cells.
 Complements v_v6_cross (M=4 only) to give full M-sweep cross-dataset for v6 design.

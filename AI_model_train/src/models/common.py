@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 量化層建構工具（make_quant_conv 等）。
+# ===========================================================================
+
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause
 

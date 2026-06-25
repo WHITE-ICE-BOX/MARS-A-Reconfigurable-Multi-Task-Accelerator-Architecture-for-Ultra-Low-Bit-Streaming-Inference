@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 匯出標準 CIFAR-10 測資供各階段比對。流程：FINN_Compile。
+# ===========================================================================
+
 # Dump canonical CIFAR-10 test set EXACTLY as FINN's validate.py consumes it
 # (dataset_loading.cifar.load_cifar_data), so on-board validation uses the
 # same data/preprocessing as the official FINN flow.

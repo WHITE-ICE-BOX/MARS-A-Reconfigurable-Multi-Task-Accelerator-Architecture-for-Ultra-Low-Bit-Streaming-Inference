@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：full-FT × bit-width（2..32-bit）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v9ft_cross_bit: full_ft baseline x bit-width x 3 new datasets.
 Already have 1-bit from v9_ft. This sweep adds 2/4/8/16/32-bit.

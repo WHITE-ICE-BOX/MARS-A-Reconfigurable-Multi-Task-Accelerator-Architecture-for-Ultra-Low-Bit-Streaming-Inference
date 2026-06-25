@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# 訓練/評估迴圈：forward/backward、scheduler、checkpoint 存取、輸出 Final Best Accuracy。
+# ===========================================================================
+
 # trainer.py
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause

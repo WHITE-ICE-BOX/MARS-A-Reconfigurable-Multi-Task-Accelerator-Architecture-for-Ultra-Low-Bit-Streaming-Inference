@@ -1,3 +1,8 @@
+// ===========================================================================
+// [交接導向註解]
+// 模組：MVAU5 同步 FIFO（深度4096），吸收 MVAU 與 Adapter 延遲差、確保 cycle 對齊。流程：RTL。
+// ===========================================================================
+
 `timescale 1ns / 1ps
 module Simple_FIFO_mvau5 #(parameter WIDTH = 8, parameter DEPTH_LOG2 = 10)(
     input  wire             clk,

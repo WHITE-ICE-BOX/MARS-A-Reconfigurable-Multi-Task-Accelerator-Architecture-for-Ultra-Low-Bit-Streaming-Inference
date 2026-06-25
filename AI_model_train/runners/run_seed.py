@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：n=3 multi-seed 變異（headline 格）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 Multi-seed (n=3) variance sweep for headline cells.
 

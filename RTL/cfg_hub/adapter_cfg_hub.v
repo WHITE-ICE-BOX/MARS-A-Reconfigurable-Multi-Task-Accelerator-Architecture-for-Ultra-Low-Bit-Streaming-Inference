@@ -1,3 +1,13 @@
+// ===========================================================================
+// [交接導向註解]
+// 模組：cfg_hub — MARS「runtime 多任務切換」核心（AXI-Lite configuration hub）
+// 流程：RTL 整合層。掛在 AXI-Lite（base 0x40010000），由 Zynq PS 寫入。
+// 做什麼：把每個任務(task)的參數 demux 到散落在 pipeline 各處的暫存器/RAM bank
+//         （MVAU0/FC1/FC2 thresholds、classifier 權重、5 層 adapter blob）。
+// 重點：換任務只寫此 hub（約 26KB），不重燒 bitstream、不需 reconfiguration controller。
+// 成本：僅 ~19 LUT。位址解碼：byte_addr[15:13]=unit select、[12:2]=word addr。
+// ===========================================================================
+
 `timescale 1ns / 1ps
 
 // =====================================================================

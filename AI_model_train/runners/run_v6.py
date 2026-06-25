@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：accuracy-best(v6)設計，CIFAR->SVHN 基準。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v6 sweep: v3 design + bias.
   3x3 down + bias (custom Int8Bias) + ReLU/signed activation + per-channel alpha.

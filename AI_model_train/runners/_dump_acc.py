@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：工具：從訓練 log 擷取 Final Best Accuracy。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 import torch,glob,os
 groups=["svhn_to_others_bits","svhn_to_others","stl10_to_others","cinic10_to_others_bits","fashionmnist_to_others_bits"]
 ROOT="/home/esl/barkie/bnn_pynq/bnn_pynq/claude/paper_results_bitwidth"

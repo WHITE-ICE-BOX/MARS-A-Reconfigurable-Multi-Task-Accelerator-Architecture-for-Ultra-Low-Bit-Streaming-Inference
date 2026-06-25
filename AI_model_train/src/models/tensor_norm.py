@@ -1,3 +1,8 @@
+# ===========================================================================
+# [交接導向註解]
+# TensorNorm（BatchNorm 變體），CNV 內使用。
+# ===========================================================================
+
 # Copyright (C) 2023, Advanced Micro Devices, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause
 

@@ -1,3 +1,9 @@
+# ===========================================================================
+# [交接導向註解]
+# runner：v9 adapter 主實驗（single-seed headline 來源）。
+# 流程：AI_model_train。產出對應 results/ 之 results.csv（見 README 對照表）。
+# ===========================================================================
+
 """
 v9 sweep: cross-dataset 1×1 transfer, RC × M ablation.
 
