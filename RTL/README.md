@@ -37,11 +37,13 @@ RTL/
     ├── make_project.tcl             #  建立 Vivado 工程
     └── build_bitstream.tcl          #  完整建置流程（stitch → zynq → bitstream）
 │
-├── mvau_core/                       # ── FINN 生成、本論文修改過的 MVAU 核心（MVAU0–8）──
-│   ├── mvau1/ .. mvau5/             #  含 adapter 的卷積層：Matrix_Vector_Activate、memstream、
-│   │                                #    threshold ROM、MVAU_hls 頂層…+ memblock.dat
-│   └── mvau0/ mvau6/ mvau7/ mvau8/  #  FC/無 adapter 層（修改點：threshold/memstream 可由 cfg_hub 寫）
-│                                    #  修改重點：MVAU 輸出『整數 partial-sum』供 Adapter 融合（非直接二值化）
+├── mvau_core/                       # ── 只收『改過的』MVAU 核心（兩類改造，MVAU8 未改故不收）──
+│   ├── mvau1/ .. mvau5/             #  Conv1–5（帶 Adapter）。改造：MAC 解耦 thresholding，
+│   │                                #    輸出『整數 partial-sum』給 Adapter 在 Stream_Adder_Threshold 融合後才二值化。
+│   │                                #    關鍵檔：*_Matrix_Vector_Activate_Stream_Batch.v
+│   └── mvau0/ mvau6/ mvau7/         #  Conv0 / FC1 / FC2。改造（patch_finn_ips.py）：threshs_ROM
+│                                    #    由唯讀→cfg-可寫（加 cfg_wen/waddr/wdata），runtime 換任務改 threshold。
+│                                    #    關鍵檔：*_threshs_ROM_AUTO_1R.v（含「PATCHED」標記）
 │
 ├── hardware_assets/                 # ── RTL 消費的 .dat 權重（97 個）──
 │   ├── mvau_{0..8}_memblock.dat     #  各 MVAU 的 FINN 二值權重 memblock

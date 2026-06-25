@@ -1,9 +1,12 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU3 核心 RTL（FINN HLS 生成、本論文修改）。含 Adapter（與 Super Wrapper 整合）。
-// 修改重點：輸出整數 partial-sum（不直接二值化）以供 Adapter 融合；
-// memstream/threshold 改為 cfg_hub 可寫，支援 runtime 換任務。
-// 流程：FINN_Compile 產生 → 本層修改 → SoC 縫合。
+// MVAU3 — Conv3（帶 Adapter）
+// 改造：同 Conv1，輸出整數 partial-sum 供 Adapter 融合。
+// 
+// 本檔：
+//   FINN HLS 控制/死結偵測邏輯（自動生成，未改）。
+// 
+// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
 // ===========================================================================
 
 `timescale 1 ns / 1 ps

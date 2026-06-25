@@ -1,14 +1,17 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU0 核心 RTL（FINN HLS 生成、本論文修改）。FC/無 adapter 層。
-// 修改重點：輸出整數 partial-sum（不直接二值化）以供 Adapter 融合；
-// memstream/threshold 改為 cfg_hub 可寫，支援 runtime 換任務。
-// 流程：FINN_Compile 產生 → 本層修改 → SoC 縫合。
+// MVAU0 — Conv0（layer 0，第一層卷積，無 Adapter）
+// 改造：threshs_ROM 由唯讀改為 cfg-可寫（64×11-bit），runtime 換任務時由 cfg_hub 改 MVAU0 threshold。
+// 
+// 本檔：
+//   FINN HLS 控制/死結偵測邏輯（自動生成，未改）。
+// 
+// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
 // ===========================================================================
 
 `timescale 1 ns / 1 ps
 
-module StreamingDataflowPartition_1_MVAU_hls_0_hls_deadlock_idx1_monitor ( // for module StreamingDataflowPartition_1_MVAU_hls_0_StreamingDataflowPartition_1_MVAU_hls_0_inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_30
+module StreamingDataflowPartition_1_MVAU_hls_0_hls_deadlock_idx1_monitor ( // for module StreamingDataflowPartition_1_MVAU_hls_0_StreamingDataflowPartition_1_MVAU_hls_0_inst.grp_Matrix_Vector_Activate_Stream_Batch_fu_32
     input wire clock,
     input wire reset,
     input wire [2:0] axis_block_sigs,

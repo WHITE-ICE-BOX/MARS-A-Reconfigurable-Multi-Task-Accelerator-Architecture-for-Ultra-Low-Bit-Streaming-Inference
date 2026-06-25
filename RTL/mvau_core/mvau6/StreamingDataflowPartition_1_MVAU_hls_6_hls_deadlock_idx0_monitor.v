@@ -1,9 +1,12 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU6 核心 RTL（FINN HLS 生成、本論文修改）。FC/無 adapter 層。
-// 修改重點：輸出整數 partial-sum（不直接二值化）以供 Adapter 融合；
-// memstream/threshold 改為 cfg_hub 可寫，支援 runtime 換任務。
-// 流程：FINN_Compile 產生 → 本層修改 → SoC 縫合。
+// MVAU6 — FC1（全連接，MVAU_hls_6）
+// 改造：threshs_ROM 由唯讀改為 cfg-可寫（512×8-bit）。
+// 
+// 本檔：
+//   FINN HLS 控制/死結偵測邏輯（自動生成，未改）。
+// 
+// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
 // ===========================================================================
 
 `timescale 1 ns / 1 ps

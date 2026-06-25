@@ -1,9 +1,12 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU6 核心 RTL（FINN HLS 生成、本論文修改）。FC/無 adapter 層。
-// 修改重點：輸出整數 partial-sum（不直接二值化）以供 Adapter 融合；
-// memstream/threshold 改為 cfg_hub 可寫，支援 runtime 換任務。
-// 流程：FINN_Compile 產生 → 本層修改 → SoC 縫合。
+// MVAU6 — FC1（全連接，MVAU_hls_6）
+// 改造：threshs_ROM 由唯讀改為 cfg-可寫（512×8-bit）。
+// 
+// 本檔：
+//   ★ 改過：在 MAC/threshold 模組內把 cfg_wen/cfg_waddr/cfg_wdata 串接(cascade)到 threshs_U（可寫 ROM）。
+// 
+// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
 // ===========================================================================
 
 // ==============================================================
@@ -30,7 +33,10 @@ module StreamingDataflowPartition_1_MVAU_hls_6_Matrix_Vector_Activate_Stream_Bat
         out_V_TDATA,
         out_V_TVALID,
         weights_V_TDATA,
-        weights_V_TREADY
+        weights_V_TREADY,
+        cfg_wen,
+        cfg_waddr,
+        cfg_wdata
 );
 
 parameter    ap_ST_iter0_fsm_state1 = 1'd1;
@@ -54,6 +60,9 @@ output  [7:0] out_V_TDATA;
 output   out_V_TVALID;
 input  [7:0] weights_V_TDATA;
 output   weights_V_TREADY;
+input   cfg_wen;
+input  [8:0] cfg_waddr;
+input  [31:0] cfg_wdata;
 
 reg ap_idle;
 reg in0_V_TREADY;
@@ -244,7 +253,10 @@ threshs_U(
     .reset(ap_rst),
     .address0(threshs_address0),
     .ce0(threshs_ce0),
-    .q0(threshs_q0)
+    .q0(threshs_q0),
+    .cfg_wen(cfg_wen),
+    .cfg_waddr(cfg_waddr),
+    .cfg_wdata(cfg_wdata)
 );
 
 StreamingDataflowPartition_1_MVAU_hls_6_mux_646_4_1_1 #(

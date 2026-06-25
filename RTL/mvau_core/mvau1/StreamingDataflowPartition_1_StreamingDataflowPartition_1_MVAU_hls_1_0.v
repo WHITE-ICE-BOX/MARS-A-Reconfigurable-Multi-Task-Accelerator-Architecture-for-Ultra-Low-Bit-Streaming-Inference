@@ -1,9 +1,12 @@
 // ===========================================================================
 // [交接導向註解]
-// MVAU1 核心 RTL（FINN HLS 生成、本論文修改）。含 Adapter（與 Super Wrapper 整合）。
-// 修改重點：輸出整數 partial-sum（不直接二值化）以供 Adapter 融合；
-// memstream/threshold 改為 cfg_hub 可寫，支援 runtime 換任務。
-// 流程：FINN_Compile 產生 → 本層修改 → SoC 縫合。
+// MVAU1 — Conv1（帶 Adapter，屬 Super Wrapper Path A）
+// 改造：MAC 核心解耦 thresholding，輸出『整數 partial-sum』，交給 Adapter 在 Stream_Adder_Threshold 融合後才二值化。
+// 
+// 本檔：
+//   FINN HLS 生成之子模組。
+// 
+// 流程：FINN_Compile 產生 → 本論文修改 → RTL/super_wrapper 整合 → SoC 縫合 → FPGA。
 // ===========================================================================
 
 // (c) Copyright 1995-2026 Xilinx, Inc. All rights reserved.
