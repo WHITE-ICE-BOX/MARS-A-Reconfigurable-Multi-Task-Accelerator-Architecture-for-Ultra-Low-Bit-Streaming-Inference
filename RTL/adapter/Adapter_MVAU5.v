@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module Adapter_Generic #(
+module Adapter_MVAU5 #(
     // --- 使用者參數 (Layer 5 / Conv6 規格) ---
     parameter LAYER_ID = 0,
     parameter IN_CH    = 256,
