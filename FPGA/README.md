@@ -17,6 +17,10 @@ PYNQ-Z2（Xilinx XC7Z020，100 MHz）最終上板的 `.bit`/`.hwh`、Python driv
 | `backbone_compact_pe1/` | `resizer.bit` | PE=1 | 純 backbone compact 基準 |
 | `MARS_compact_5ds_pe1/` | `resizer_3ds_v3.bit` | PE=1 | MARS（**5 資料集** runtime 切換）板上精度正確性 |
 
+> 量測結果見 [`results/`](results/)：`onboard_measurements.md`（準確率/吞吐量/延遲/切換/能效彙整）
+> + 各 build 的 Vivado routed 報告（資源/功耗/時序）。
+> 板上 runtime 參數 `.bin` 由 `MARS_compact_5ds_pe1/gen_3ds_cfg.py` 從 PyTorch 參數產生。
+
 ---
 
 ## 二、結構樹
@@ -50,6 +54,7 @@ FPGA/
     ├── resizer_3ds_v3.bit / .hwh    #   canonical bitstream（單一 bitstream 服務 5 資料集）
     ├── driver.py / driver_base.py
     ├── runtime_3ds.py               #   ★ 主 runtime 切換 driver（依資料集載入 runtime_weights）
+    ├── gen_3ds_cfg.py               #   ★ 把 PyTorch 參數打包成 runtime_weights/*.bin（板上 .bin 產生器）
     ├── board_test_10k.py            #   各資料集 10k 張板上精度（→ 論文板上精度表）
     ├── board_switch_fast_bench.py   #   切換延遲量測（→ 1.86 ms）
     ├── data/                        #   *_test_y.npy 標籤
