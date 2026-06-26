@@ -89,6 +89,15 @@ AI_model_train/
 | `_b2_runner.py` | n=5 paired t-test（deployed，SVHN/Fashion × M1/M4） | `b2_significance/` |
 | `_dump_acc.py` | 工具：從 log 擷取 Final Best Accuracy | — |
 
+> **命名 ↔ 論文用語對照（重要）**：程式裡的內部代號與論文兩種幾何的對應如下——
+> - **`configC` / `v6` 家族 = accuracy-best 幾何**（kernel 3×3、mid='out'、α per-channel）→ 餵論文多 Adapter 表。
+> - **`v9` 家族 = deployed 幾何**（kernel 1×1、mid='in'、α scalar）→ 燒進 bitstream 的部署版。
+> - **`run_xx_to_others.py` 的 adapter 輸出是 mid='in'（早期版，已被 configC 取代，勿用於多 Adapter 表）**；
+>   但其 `full_ft` 輸出為 Table 5.4 full-FT 欄之來源（採用）。跨來源多 Adapter 請用 `run_configC_cross.py`。
+> - 論文已不再使用「Configurations A–C」說法（改稱 accuracy-best / deployed）；舊代號 `configA`
+>   為更早的 v3 設計、**未進論文**，故未收錄於本 release。
+> 各結果資料夾 → 論文表 的完整對照見 [`results/README.md`](results/README.md)。
+
 ---
 
 ## 四、主入口參數（`bnn_pynq_train_bitwidth.py`）
