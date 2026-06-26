@@ -20,11 +20,16 @@ stdout，未存檔；此處彙整論文回報之**實測數值**，並附各 bui
 | CINIC10 | 64.64% | 64.80% | 0.16 pp |
 
 → 五者皆 ≤ 0.69 pp（一般 FINN 定點量化損失），單一 bitstream、無 per-dataset 重建。
-量測腳本：`MARS_compact_5ds_pe1/board_test_10k.py`。
+量測腳本：`MARS_compact_5ds_pe1/board_test_10k.py`（`DATASETS` 已含 5 個）。
+
+> **重現說明**：板上原始快照僅常駐 cifar10/svhn/fashion 三組，故 `board_test_10k.py`
+> 原本只跑 3 個（已改為 5 個）。STL10/CINIC10 的 66.77/64.64 為相同 harness 量測；
+> 要在板上重跑這兩個，需先把它們的 `runtime_weights/<ds>/`（已在 repo 內）與測試資料
+> `<ds>_test_x.npy/_test_y.npy` 上傳到板子。切換機制與 weights 對五個資料集皆完備。
 
 ## 二、Runtime 切換延遲
 
-- **1.86 ± 0.04 ms**（50 次切換平均），每次寫 6,757 個 32-bit 字（約 26 KB）。
+- **1.86 ± 0.04 ms**（50 次切換平均），每次寫 6,757 個 cfg word；blob 實體 25,088 bytes（≈25 KB；classifier 權重為 byte-packed，故非 6,757×4）。
 - 無 fabric reconfiguration、無 reconfiguration controller。
 - 量測腳本：`MARS_compact_5ds_pe1/board_switch_fast_bench.py`。
 

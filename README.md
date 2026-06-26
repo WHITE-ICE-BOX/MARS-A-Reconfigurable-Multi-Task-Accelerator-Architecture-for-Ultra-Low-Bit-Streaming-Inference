@@ -11,7 +11,7 @@ MARS 把 **Conv-Adapter**（參數高效率遷移學習模組）整合進一個*
 
 核心貢獻：
 1. **硬體整合**——把自研 Adapter RTL 以「Super Wrapper」方式包進 FINN 產生的 MVAU（Matrix-Vector-Activation Unit）串流資料流，週期精準（cycle-accurate）同步。
-2. **單一 bitstream 多任務切換**——`cfg_hub` 讓**一顆 bitstream**在不做 fabric reconfiguration（不重組態 FPGA 邏輯、不需 reconfiguration controller）下，以 $O(1)$ 晶片成本服務任意數量的同 backbone 分類任務；切換僅是寫入約 26 KB 的 per-task 參數（≈1.86 ms）。
+2. **單一 bitstream 多任務切換**——`cfg_hub` 讓**一顆 bitstream**在不做 fabric reconfiguration（不重組態 FPGA 邏輯、不需 reconfiguration controller）下，以 $O(1)$ 晶片成本服務任意數量的同 backbone 分類任務；切換僅是寫入約 25 KB 的 per-task 參數（6,757 cfg words）（≈1.86 ms）。
 3. **RC（Residual Correction）的 1-bit 關鍵性發現**——down-convolution 的 Int8 bias 吸收進 accumulator reset，於 1-bit 貢獻極大、零硬體成本。
 
 平台：**PYNQ-Z2（Xilinx XC7Z020）**，100 MHz；訓練於 **PyTorch + Brevitas**，硬體合成於 **FINN（Docker）+ Vivado 2022.2**。
@@ -51,7 +51,7 @@ MARS 把 **Conv-Adapter**（參數高效率遷移學習模組）整合進一個*
         ▼
 [5] 部署 (FPGA)
     .bit/.hwh + Python driver 上 PYNQ-Z2；runtime 換任務 = 透過 cfg_hub
-    寫入該任務約 26 KB 參數（≈1.86 ms，無 fabric reconfiguration）
+    寫入該任務約 25 KB 參數（6,757 cfg words）（≈1.86 ms，無 fabric reconfiguration）
 ```
 
 ---

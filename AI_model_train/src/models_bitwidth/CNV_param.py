@@ -10,8 +10,10 @@ Architecture follows models/CNV.py exactly. The only difference:
 - act_bit_width == 1  -> QuantIdentity + CommonActQuant (binary +/-1, original behavior)
 - act_bit_width >= 2  -> QuantReLU (unsigned, Brevitas convention for multi-bit)
 
-Adapter components (QuantAdapter / MultiBranchAdapter) are imported from the
-original models.CNV unchanged: adapter is always 1-bit in this experiment.
+Adapter components are imported from THIS package:
+- QuantConvAdapter (.conv_adapter) — single Conv-Adapter
+- MultiAdapter (.multi_adapter) — M parallel branches
+(adapter is 1-bit in this experiment; geometry set via cfg [ADAPTER] section).
 """
 
 import os

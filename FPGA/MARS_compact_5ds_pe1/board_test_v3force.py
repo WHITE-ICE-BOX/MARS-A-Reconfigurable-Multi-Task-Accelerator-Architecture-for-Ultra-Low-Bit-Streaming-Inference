@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-# ===========================================================================
-# [交接導向註解]
-# 各資料集 10,000 張板上精度測試（-> 論文板上精度表）。流程：FPGA(compact)。
-# ===========================================================================
-
 """
 On-board 3-dataset accuracy verification for PE=1 BNN bitstream.
 Bitstream: resizer_3ds.bit (PE=1 backbone + 5 cfg-writable adapter wrappers).
@@ -18,11 +13,7 @@ import os, time, sys
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = "/home/xilinx/runtime_3ds_pe1/data"  # uploaded test data on board
 
-# 五個資料集皆由同一 bitstream + runtime_weights/<ds>/ 支援（論文 Table 5.18）。
-# 前置條件：執行前需把該資料集的 (a) runtime_weights/<ds>/ 與 (b) 測試資料
-#   <DATA_DIR>/<ds>_test_x.npy / <ds>_test_y.npy 上傳到板子。
-# cifar10/svhn/fashion 為原始板上快照即有；stl10/cinic10 需另外上傳其 weights+測資後才能跑。
-DATASETS = ["cifar10", "svhn", "fashion", "stl10", "cinic10"]
+DATASETS = ["cifar10", "svhn", "fashion"]
 
 
 def run_inference(ol, test_x, test_y, batch_size=100, max_samples=None):
@@ -83,7 +74,7 @@ def main():
         dummy_x = test_x[:100]; dummy_y = test_y[:100]
         run_inference(ol, dummy_x, dummy_y, batch_size=100)
         # Real run
-        acc, c, n, sec = run_inference(ol, test_x, test_y, batch_size=100, max_samples=10000)
+        acc, c, n, sec = run_inference(ol, test_x, test_y, batch_size=100)
         fps = n / sec if sec > 0 else 0
         print(f"  Accuracy: {acc:.2f}% ({c}/{n}), FPS = {fps:.1f}")
         results[ds] = (acc, c, n, fps)

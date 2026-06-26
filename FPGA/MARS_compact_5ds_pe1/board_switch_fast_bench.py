@@ -34,7 +34,7 @@ bitfile = os.path.join(SCRIPT_DIR, "resizer_3ds_v3.bit")
 print(f"Loading {bitfile} (existing bitstream, no rebuild) ...")
 ol = Overlay(bitfile); Clocks.fclk0_mhz = 100.0
 WR = os.path.join(SCRIPT_DIR, "runtime_weights")
-DS = ("cifar10", "svhn", "fashion")
+DS = ("cifar10", "svhn", "fashion", "stl10", "cinic10")  # 5 資料集切換延遲（各自 runtime_weights/ 已在 repo 內）
 
 # ---- 1. baseline switch timing (full fancy-scatter, the shipped path) ----
 print("\n[1] baseline RuntimeSwitcher.switch (full write):")

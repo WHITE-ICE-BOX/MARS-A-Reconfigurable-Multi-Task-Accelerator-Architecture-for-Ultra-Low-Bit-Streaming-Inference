@@ -4,7 +4,7 @@ PYNQ-Z2（Xilinx XC7Z020，100 MHz）最終上板的 `.bit`/`.hwh`、Python driv
 **runtime 參數**。共四種 build，對應論文資源/功耗/跨平台與 runtime 切換結果。
 
 > **runtime 參數** = 換任務時透過 `cfg_hub` 寫入的 per-task 組態（各層 thresholds、classifier
-> 權重、5 層 adapter blob）。換任務「不重燒 bitstream」，只寫這份約 26 KB 的參數（≈1.86 ms）。
+> 權重、5 層 adapter blob）。換任務「不重燒 bitstream」，只寫這份約 25 KB 的參數（25,088 bytes / 6,757 cfg words）（≈1.86 ms）。
 
 ---
 
